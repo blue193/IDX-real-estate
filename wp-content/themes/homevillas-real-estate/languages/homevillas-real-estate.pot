@@ -1,0 +1,7904 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-15 15:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. 1: number of comments, 2: post title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comments"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:55 assets/frontend/translate/cs-strings.php:1663
+msgid "Primary"
+msgstr ""
+
+#: functions.php:56 assets/frontend/translate/cs-strings.php:284
+#: assets/frontend/translate/cs-strings.php:1664
+#: assets/frontend/translate/cs-strings-3.php:140
+msgid "Footer Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:33
+msgid "Saving changes..."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:35
+msgid "Verify Purchased Code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:36
+msgid "Item Purchase Code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:37
+msgid "Verify"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:38
+#: assets/frontend/translate/cs-strings-2.php:241
+msgid "Cancel"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:39
+msgid "Field cannot be blank."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:40
+msgid "Purchase code is not correct."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:41
+msgid "verifiying..."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:43
+msgid "Save All Settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:44
+msgid "Reset All Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:45
+msgid "Please Select"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:46
+msgid "Breadcrumbs Sub Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:47
+#: assets/frontend/translate/cs-strings.php:631
+#: assets/frontend/translate/cs-strings-2.php:59
+msgid "Revolution Slider"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:48
+msgid "No sub Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:49
+msgid "General"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:50
+msgid "Global"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:51
+msgid "Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:52
+msgid "Sub Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:53
+msgid "Social icons"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:54
+msgid "Social sharing"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:55
+msgid "Others"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:56
+#: assets/frontend/translate/cs-strings.php:1348
+msgid "Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:57
+msgid "Headings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:58
+#: assets/frontend/translate/cs-strings-2.php:134
+msgid "All"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:59
+msgid "I hereby certify that all the information above is true and accurate."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:61
+msgid "Maintenance Mod settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:62
+msgid "Maintenance Mod"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:63
+msgid "Turn maintenance mod on/off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:64
+msgid "Show logo"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:65
+msgid "Turn logo on/off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:66
+msgid "Social Contacts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:67
+msgid "Turn social contacts on/off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:68
+#: assets/frontend/translate/cs-strings.php:455
+#: assets/frontend/translate/cs-strings-3.php:86
+msgid "Newsletter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:69
+msgid "Turn newsletter on/off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:70
+msgid "Header switch"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:71
+msgid "Turn header on/off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:72
+msgid "Footer switch"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:73
+msgid "Turn footer on/off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:74
+msgid "Maintinance Mod page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:75
+msgid "Select a page that ypu want to set for maintinance mode"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:77
+msgid "Show Twitter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:78
+msgid ""
+"Manage user registration via Twitter here. If this switch is set ON, users "
+"will be able to sign up / sign in with Twitter. If it will be OFF, users "
+"will not be able to register / sign in through Twitter."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:79
+#: assets/frontend/translate/cs-strings.php:427
+#: assets/frontend/translate/cs-strings.php:1005
+msgid "Facebook"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:80
+msgid "Facebook Login On/Off"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:81
+msgid ""
+"Manage user registration via Facebook here. If this switch is set ON, users "
+"will be able to sign up / sign in with Facebook. If it will be OFF, users "
+"will not be able to register / sign in through Facebook."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:82
+msgid "Facebook Application ID"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:83
+msgid ""
+"Here you have to add your Facebook application ID. You will get this ID when "
+"you create Facebook App."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:84
+msgid "Facebook Secret"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:85
+msgid ""
+"Put your Facebook Secret here. You can find it in your Facebook Application "
+"Dashboard"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:86
+msgid "Linked-in"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:87
+msgid "Linked-in Login On/Off"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:88
+msgid ""
+"Manage user registration via Linked-in here. If this switch is set ON, users "
+"will be able to sign up / sign in with Linked-in. If it will be OFF, users "
+"will not be able to register / sign in through Linked-in."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:89
+msgid "Linked-in Application ID"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:90
+msgid ""
+"Add LinkedIn application ID. To get your Linked-in Application ID, go to "
+"your Linked-in Dashboard"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:91
+msgid "Linked-in Secret"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:92
+msgid ""
+"Put your Linked-in Secret here. You can find it in your Linked-in "
+"Application Dashboard"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:93
+msgid "Google"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:94
+msgid "Google+ Login On/Off"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:95
+msgid ""
+"Manage user registration via Google+ here. If this switch is set ON, users "
+"will be able to sign up / sign in with Google+. If it will be OFF, users "
+"will not be able to register / sign in through Google+."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:96
+msgid "Google+ Client ID"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:97
+msgid ""
+"Put your Google+ client ID here.  To get this ID, go to your Google+ account "
+"Dashboard"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:98
+msgid "Google+ Client Secret"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:99
+msgid ""
+"Put your google+ client secret here.  To get client secret, go to your "
+"Google+ account"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:100
+msgid "Google+ API key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:101
+msgid "Put your Google+ API key here.  To get API, go to your Google+ account"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:102
+msgid "Fixed redirect url for login"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:103
+msgid "Put your google+ redirect url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:104
+msgid "Captcha"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:105
+msgid ""
+"Manage your captcha code for secured Signup here. If this switch will be ON, "
+"user can register after entering Captcha code. It helps to avoid robotic / "
+"spam sign-up"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:106
+msgid "Site Key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:107
+msgid ""
+"Put your site key for captcha. You can get this site key after registering "
+"your site on Google."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:108
+msgid "Secret Key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:109
+msgid ""
+"Put your site Secret key for captcha. You can get this Secret Key after "
+"registering your site on Google."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:113
+msgid "Ads Unit Settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:114
+msgid "Custom favicon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:115
+msgid "Custom favicon for your site"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:116
+msgid "RTL"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:117
+msgid "Turn RTL On/Off here for Right to Left languages like Arabic etc."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:118
+msgid "Responsive"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:119
+msgid "Set responsive design layout for mobile devices On/Off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:120
+msgid "Excerpt Length (in words)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:121
+msgid ""
+"Set excerpt length/limit from here. It controls text limit for blog posts "
+"content"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:122
+msgid "Global Settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:123
+msgid "This is Global Settings."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:124
+msgid "Default Header Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:125
+msgid "Choose default header style for complete site"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:126
+#: assets/frontend/translate/cs-strings.php:166
+#: assets/frontend/translate/cs-strings.php:839
+#: assets/frontend/translate/cs-strings.php:915
+#: assets/frontend/translate/cs-strings.php:1065
+#: assets/frontend/translate/cs-strings.php:1401
+#: assets/frontend/translate/cs-strings.php:1727
+#: assets/frontend/translate/cs-strings-3.php:99
+#: assets/frontend/translate/cs-strings-3.php:123
+#: assets/frontend/translate/cs-strings-3.php:129
+#: assets/frontend/translate/cs-strings-3.php:131
+msgid "Default"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:127
+#: assets/frontend/translate/cs-strings.php:130
+#: assets/frontend/translate/cs-strings.php:167
+#: assets/frontend/translate/cs-strings.php:838
+#: assets/frontend/translate/cs-strings.php:1067
+#: assets/frontend/translate/cs-strings.php:1083
+#: assets/frontend/translate/cs-strings.php:1157
+#: assets/frontend/translate/cs-strings.php:1402
+#: assets/frontend/translate/cs-strings.php:1517
+#: assets/frontend/translate/cs-strings.php:1546
+#: assets/frontend/translate/cs-strings.php:1573
+#: assets/frontend/translate/cs-strings.php:2072
+#: assets/frontend/translate/cs-strings-3.php:91
+#: assets/frontend/translate/cs-strings-3.php:130
+msgid "Modern"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:128
+#: assets/frontend/translate/cs-strings.php:168
+#: assets/frontend/translate/cs-strings.php:252
+#: assets/frontend/translate/cs-strings.php:823
+#: assets/frontend/translate/cs-strings.php:1069
+#: assets/frontend/translate/cs-strings.php:1158
+#: assets/frontend/translate/cs-strings.php:1427
+#: assets/frontend/translate/cs-strings.php:1520
+#: assets/frontend/translate/cs-strings.php:1571
+#: assets/frontend/translate/cs-strings.php:2068
+#: assets/frontend/translate/cs-strings.php:2075
+#: assets/frontend/translate/cs-strings-3.php:90
+#: assets/frontend/translate/cs-strings-3.php:100
+msgid "Classic"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:129
+msgid "default"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:131
+#: assets/frontend/translate/cs-strings.php:1854
+#: assets/frontend/translate/cs-strings-3.php:20
+#: assets/frontend/translate/cs-strings-3.php:27
+msgid "Logo"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:132
+msgid "Sticky Logo"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:133
+msgid "Upload your custom sticky logo in .png .jpg .gif formats only."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:134
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:135
+msgid "Select Toggle sidebar for header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:136
+msgid "Header background image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:137
+msgid "Upload Bakcground Image for header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:138
+msgid "Header news"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:139
+msgid "Select category for header news"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:140
+msgid "Banner"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:141
+msgid "Select the add from dropdown that you want to dispaly"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:142
+msgid "Header Posts Position"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:143
+msgid "Before Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:144
+msgid "After Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:148
+msgid "Header Top Strip"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:149
+msgid "Enable/Disable header top strip"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:150
+msgid "Date/Time"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:151
+msgid "Enable/Disable Header Top Strip Date/Time"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:152
+#: assets/frontend/translate/cs-strings.php:156
+msgid "Language"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:153
+msgid "Enable/Disable Header Top Strip Language"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:154
+#: assets/frontend/translate/cs-strings.php:549
+#: assets/frontend/translate/cs-strings.php:1388
+#: assets/frontend/translate/cs-strings.php:1392
+#: assets/frontend/translate/cs-strings.php:1857
+msgid "Address"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:155
+msgid "Enable/Disable Header Top Strip Address"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:157
+msgid "Enable/Disable Header Top Strip Email"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:158
+#: assets/frontend/translate/cs-strings.php:827
+#: assets/frontend/translate/cs-strings.php:1185
+#: assets/frontend/translate/cs-strings.php:1858
+#: assets/frontend/translate/cs-strings.php:2092
+msgid "Phone"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:159
+msgid "Enable/Disable Header Top Strip Phone"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:160
+#: assets/frontend/translate/cs-strings-2.php:195
+msgid "Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:161
+msgid "Enable/Disable Header Top Strip Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:162
+msgid "Footer Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:163
+msgid "Select footer style from this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:164
+#: assets/frontend/translate/cs-strings.php:620
+msgid "Header Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:165
+msgid "Select header style from this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:169
+#: assets/frontend/translate/cs-strings.php:935
+#: assets/frontend/translate/cs-strings.php:1515
+#: assets/frontend/translate/cs-strings.php:1547
+#: assets/frontend/translate/cs-strings.php:2066
+#: assets/frontend/translate/cs-strings.php:2067
+#: assets/frontend/translate/cs-strings.php:2071
+msgid "Fancy"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:170
+msgid "Default v2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:171
+#: assets/frontend/translate/cs-strings.php:1068
+#: assets/frontend/translate/cs-strings.php:1572
+#: assets/frontend/translate/cs-strings.php:2073
+#: assets/frontend/translate/cs-strings-3.php:139
+msgid "Advance"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:172
+msgid "Advance V2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:173
+msgid "Modern V2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:174
+msgid "Header Full Width"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:175
+msgid "Sticky Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:176
+msgid ""
+"By turning this option as \"ON\" your website header will stick to top as "
+"you scroll down."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:177
+msgid "Social Links"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:178
+msgid "Enable/Disable Header Top Strip Social Links"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:179
+msgid "Join Us"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:180
+msgid "Enable/Disable Join Us"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:181
+#: assets/frontend/translate/cs-strings.php:1174
+msgid "Contact Us"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:182
+msgid "Enable/Disable Contact Us"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:183
+msgid "Top Strip Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:184
+msgid "Select top strip color from color picker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:185
+msgid "Top Strip Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:186
+msgid "Select top strip background color from color picker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:187
+msgid "Upload your custom logo in .png .jpg .gif formats only."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:188
+msgid "Logo Modern"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:189
+msgid "Logo Height"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:190
+msgid "Latest News"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:191
+msgid "Set exact logo height otherwise logo will not display normally."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:192
+msgid "Logo Width"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:193
+msgid "Set exact logo width otherwise logo will not display normally."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:194
+msgid "Contact us area"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:195
+msgid "Enter the text or html for contact us area that appears in header right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:196
+msgid "Create property text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:197
+msgid "Enter text for create property button"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:198
+msgid "Create property link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:199
+msgid "Enter link for create property button"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:200
+msgid "Create property button switch"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:201
+msgid ""
+"Turn this switch \"ON\" to show create property button in header otherwise "
+"switch it off "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:202
+msgid "Logo margin top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:203
+msgid "Logo spacing margin from top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:204
+msgid "Logo margin bottom"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:205
+msgid "Logo spacing margin from bottom."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:206
+msgid "Logo margin right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:207
+msgid "Logo spacing margin from right."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:208
+msgid "Logo margin left"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:209
+msgid "Logo spacing margin from left"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:210
+msgid "Map Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:211
+msgid "Blog Search Result"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:212
+msgid "Select Page for Blog Search Result"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:213
+msgid "Select Map style for all Maps."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:214
+msgid "Map Box"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:215
+msgid "Blue Water"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:216
+msgid "Icy Blue"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:217
+msgid "Bluish"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:218
+msgid "Light Blue Water"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:219
+msgid "Clad Me"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:220
+msgid "Chilled"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:221
+msgid "Two Tone"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:222
+msgid "Light and Dark"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:223
+msgid "Ilustracao"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:224
+msgid "Flat Pale"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:225
+#: assets/frontend/translate/cs-strings.php:813
+#: assets/frontend/translate/cs-strings.php:882
+#: assets/frontend/translate/cs-strings.php:909
+#: assets/frontend/translate/cs-strings.php:1104
+#: assets/frontend/translate/cs-strings.php:1374
+#: assets/frontend/translate/cs-strings.php:1441
+#: assets/frontend/translate/cs-strings.php:1480
+#: assets/frontend/translate/cs-strings.php:1542
+#: assets/frontend/translate/cs-strings.php:1556
+#: assets/frontend/translate/cs-strings.php:1577
+#: assets/frontend/translate/cs-strings.php:1671
+#: assets/frontend/translate/cs-strings.php:1685
+#: assets/frontend/translate/cs-strings.php:1707
+#: assets/frontend/translate/cs-strings.php:1712
+#: assets/frontend/translate/cs-strings.php:1719
+#: assets/frontend/translate/cs-strings.php:1853
+#: assets/frontend/translate/cs-strings.php:1873
+#: assets/frontend/translate/cs-strings-2.php:194
+#: assets/frontend/translate/cs-strings-2.php:211
+#: assets/frontend/translate/cs-strings-3.php:18
+#: assets/frontend/translate/cs-strings-3.php:25
+msgid "Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:226
+msgid "Moret"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:227
+msgid "RPN Map"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:231
+msgid "Book Now Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:232
+msgid "WooCommerce"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:233
+msgid "WooCommerce Cart Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:234
+msgid "WooCommerce Archive Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:235
+msgid "Set Sidebar for WooCommerce Archive, Category etc"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:236
+msgid "Select Sidebar for WooCommerce Archive, Category etc"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:237
+#: assets/frontend/translate/cs-strings.php:1898
+msgid "in stock"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:238
+#: assets/frontend/translate/cs-strings.php:1899
+msgid "out of stock"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:239
+#: assets/frontend/translate/cs-strings.php:542
+msgid "add to cart"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:240
+#: assets/frontend/translate/cs-strings.php:1891
+msgid "Availability"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:246
+msgid "Default Sub Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:247
+msgid "Sub Header settings made here will be implemented on all pages."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:248
+msgid "Header Border Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:249
+msgid ""
+"Please select Revolution Slider if already included in package. Otherwise "
+"buy Sliders from Code canyon But its optional"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:250
+#: assets/frontend/translate/cs-strings.php:1708
+#: assets/frontend/translate/cs-strings.php:1728
+#: assets/frontend/translate/cs-strings-3.php:98
+msgid "Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:251
+msgid "Select Subheader Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:253
+msgid "With Background Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:254
+msgid "Padding Top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:255
+msgid "Set custom padding for sub header content top area."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:256
+msgid "Padding Bottom"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:257
+msgid "Set custom padding for sub header content bottom area."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:258
+#: assets/frontend/translate/cs-strings.php:1409
+msgid "Margin Top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:259
+msgid "Set custom Margin for sub header content top area."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:260
+#: assets/frontend/translate/cs-strings.php:1411
+msgid "Margin Bottom"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:261
+msgid "Set custom Margin for sub header content bottom area."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:262
+msgid "Page Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:263
+#: assets/frontend/translate/cs-strings.php:363
+msgid "Enable/disable Subheader Page Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:264
+#: assets/frontend/translate/cs-strings.php:878
+#: assets/frontend/translate/cs-strings.php:899
+#: assets/frontend/translate/cs-strings.php:964
+msgid "Content Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:265
+msgid "Set Subheader Content Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:266
+msgid "Breadcrumbs"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:267
+msgid "Enable/disable Breadcrumbs"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:268
+msgid "Sub Heading"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:269
+msgid "Upload background image in .png .jpg .gif formats only."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:270
+msgid "Parallax"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:274
+msgid "Footer options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:275
+msgid "Footer Widgets"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:276
+msgid "enable/disable footer widget area"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:277
+msgid "Copyright Section"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:278
+msgid "enable/disable Copyright Section"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:279
+#: assets/frontend/translate/cs-strings.php:281
+#: assets/frontend/translate/cs-strings.php:346
+msgid "Copyright Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:280
+msgid "Enable/Disable copyright text from footer"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:282
+msgid "write your own copyright text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:283
+msgid "2015 wp_rem_cs Name All rights reserved. Design by Chimp Studio"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:285
+msgid "Enable/disable footer menu option."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:286
+msgid "Back to top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:287
+msgid "Enable/disable footer back to top option."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:288
+msgid "Language Switcher"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:289
+msgid "Enable/disable Footer Language Switcher."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:290
+msgid "Google Play Store image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:291
+msgid "Upload google Play Store Image for footer"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:292
+msgid "Google Play Store Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:293
+msgid "Enter Google Play Store image Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:294
+msgid "Footer App Store image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:295
+msgid "Upload App Store Image for footer"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:296
+msgid "Footer App Store Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:297
+msgid "Enter App Store Url Here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:298
+msgid "Footer background image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:299
+msgid "Upload Bakcground Image for footer"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:300
+msgid "Custom Css"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:301
+msgid ""
+"If you want to overwrite or add any new style then you can use this section "
+"to add CSS classes"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:302
+msgid "All Rights Reserved."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:303
+msgid "chimpstudio"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:307
+msgid "General Colors"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:308
+msgid "Theme Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:309
+msgid "Choose theme skin color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:310
+msgid "Theme Color 2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:311
+msgid "Choose theme 2 skin color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:312
+msgid "Body Text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:313
+#: assets/frontend/translate/cs-strings.php:2048
+msgid "Choose text color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:314
+msgid "Header colors"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:315
+msgid "Default Header Colors"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:316
+msgid "Change Header background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:317
+msgid "Sticky Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:318
+msgid "Change sticky header background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:319
+msgid "Sticky Menu Text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:320
+msgid "Change sticky menu text color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:321
+msgid "Menu Link color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:322
+msgid "Change Header Menu Link color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:323
+msgid "Menu Hover / Active Link color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:324
+msgid "Change Header Menu Active Link color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:325
+msgid "Menu Hover / Active Link Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:326
+msgid "Change Header Menu Active Link Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:327
+msgid "Submenu 2nd Level Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:328
+msgid "Change Header Submenu 2nd Level Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:329
+msgid "Submenu Hover Background"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:330
+msgid "Change Submenu Hover Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:331
+msgid "Submenu Link Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:332
+msgid "Change Submenu Link color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:333
+msgid "Submenu 2nd Level Link Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:334
+msgid "Change Submenu 2nd Level Link color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:335
+msgid "Submenu Hover / Active Link Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:336
+msgid "Change Submenu Hover / Active Link color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:337
+msgid "Submenu Background"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:338
+msgid "Change Submenu Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:339
+msgid "Footer Colors"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:340
+msgid "Footer Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:341
+msgid "Change Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:342
+msgid "Footer Text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:343
+msgid "Change Footer Text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:344
+msgid "Footer Link Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:345
+msgid "Change Footer Link Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:347
+msgid "Change Copyright Text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:348
+msgid "Widget Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:349
+msgid "Copyright Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:350
+msgid "Change Copyright Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:354
+msgid "Heading Colors"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:355
+msgid "Heading h1"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:356
+msgid "Heading h2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:357
+msgid "Heading h3"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:358
+msgid "Heading h4"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:359
+msgid "Heading h5"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:360
+msgid "Heading h6"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:361
+msgid "Section Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:362
+msgid "Post Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:364
+msgid "Widgets Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:365
+msgid "Footer Widgets Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:369
+#: assets/frontend/translate/cs-strings.php:595
+msgid "Browse"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:370
+msgid "Font Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:371
+msgid "Custom Font .woff"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:372
+msgid "Upload Your Custom Font file in .woff format"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:373
+msgid "Custom Font .ttf"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:374
+msgid "Upload Your Custom Font file in .ttf format"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:375
+msgid "Custom Font .svg"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:376
+msgid "Upload Your Custom Font file in .svg format"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:377
+msgid "Custom Font .eot"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:378
+msgid "Upload Your Custom Font file in .eot format"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:379
+#: assets/frontend/translate/cs-strings.php:386
+msgid "Custom Fonts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:383
+msgid "Fonts Type"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:384
+msgid "Choose google/custom fonts type from this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:385
+#: assets/frontend/translate/cs-strings.php:511
+msgid "Google Fonts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:387
+msgid "Content Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:388
+msgid "Set fonts for Body text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:389
+msgid "Set google fonts for Body text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:390
+#: assets/frontend/translate/cs-strings.php:594
+msgid "Set custom fonts for Body text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:391
+msgid "Font Attribute"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:392
+msgid "Set Font Attribute"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:393
+#: assets/frontend/translate/cs-strings.php:1300
+msgid "Size"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:394
+#: assets/frontend/translate/cs-strings.php:958
+msgid "Line Height"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:395
+#: assets/frontend/translate/cs-strings.php:946
+msgid "Text Transform"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:396
+msgid "none"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:397
+msgid "capitalize"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:398
+msgid "uppercase"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:399
+msgid "lowercase"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:400
+msgid "initial"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:401
+msgid "inherit"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:402
+#: assets/frontend/translate/cs-strings.php:954
+msgid "Letter Spacing"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:403
+msgid "Main Menu Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:404
+msgid "Set font for main Menu. It will be applied to sub menu as well"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:406
+msgid "Heading 1 Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:407
+msgid "Select font for Headings. It will apply on all posts and pages headings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:408
+msgid "Heading 2 Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:409
+msgid "Heading 3 Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:410
+msgid "Heading 4 Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:411
+msgid "Heading 5 Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:412
+msgid "Heading 6 Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:413
+msgid "Section Title Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:414
+msgid "Set font for Section Title Headings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:415
+msgid "Page Title Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:416
+msgid "Set font for Page Title Headings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:417
+msgid "Post Title Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:418
+msgid "Set font for Post Title Headings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:419
+msgid "Sidebar Widget Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:420
+msgid "Set font for Widget Headings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:421
+msgid "Footer Widget Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:422
+msgid "Set font for Footer Widget Headings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:426
+msgid "Social Network"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:428
+#: assets/frontend/translate/cs-strings.php:1007
+msgid "Twitter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:429
+#: assets/frontend/translate/cs-strings.php:1009
+msgid "Google Plus"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:430
+msgid "Tumblr"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:431
+msgid "Dribbble"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:432
+msgid "Instagram"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:433
+msgid "StumbleUpon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:434
+msgid "youtube"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:435
+msgid "share more"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:439
+msgid "Select Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:440
+msgid "Page Margin"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:441
+msgid "Sidebar Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:442
+msgid ""
+"Select a sidebar from the list already given. (Nine pre-made sidebars are "
+"given)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:443
+msgid "Default Pages"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:444
+msgid "Default Pages Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:445
+msgid "Default Pages Layout"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:446
+msgid ""
+"Set Sidebar for all pages like Search, Author Archive, Category Archive etc"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:447
+msgid ""
+"Select pre-made sidebars for default pages on sidebar layout. Full width "
+"layout cannot have sidebars"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:451
+msgid "Turn Maintenance Mode On/Off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:452
+msgid "Turn Logo On/Off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:453
+msgid "Social Contact"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:454
+msgid "Turn Social Contact On/Off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:456
+msgid "Turn newsletter On/Off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:457
+msgid "Header Switch"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:458
+msgid "Turn Header On/Off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:459
+msgid "Footer Switch"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:460
+msgid "Turn Footer On/Off here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:461
+#: assets/frontend/translate/cs-strings.php:2096
+msgid "No Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:462
+msgid "Maintenance Mode page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:463
+msgid "Choose a page that you want to set for maintenance mode"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:467
+msgid "Mail Chimp Key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:468
+msgid ""
+"Enter a valid Mail Chimp API key here to get started. Once you''ve done that,"
+" you can use the Mail Chimp Widget from the Widgets menu. You will need to "
+"have at least Mail Chimp list set up before the using the widget. You can "
+"get your mail chimp activation key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:469
+#: assets/frontend/translate/cs-strings-3.php:85
+msgid "Mail Chimp List"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:470
+msgid "Flickr API Setting"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:471
+msgid "Flickr key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:472
+msgid "add your flickr key here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:473
+msgid "Google API Setting"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:474
+#: assets/frontend/translate/cs-strings.php:1252
+msgid "Google Api key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:475
+msgid "add your google Api key here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:476
+msgid "Twitter API Setting"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:477
+#: assets/frontend/translate/cs-strings-3.php:150
+msgid "Consumer Key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:478
+msgid "insert your consumer key here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:479
+msgid "Cache Time Limit"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:480
+msgid "Please enter the time limit in minutes for refresh cache."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:481
+msgid "Number of tweet"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:482
+msgid "Please enter number of tweet that you get from twitter for chache file."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:483
+msgid "Date Time Formate"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:484
+msgid "Select date time formate for every tweet."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:485
+msgid "Displays November 06 2012"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:486
+msgid "Displays 6th November"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:487
+msgid "Displays 06 Nov"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:488
+msgid "Displays 06 Nov 2012"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:489
+msgid "Displays Tues 06 Nov 2012"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:490
+msgid "Displays in hours, minutes etc"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:491
+#: assets/frontend/translate/cs-strings-3.php:152
+msgid "Consumer Secret"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:492
+msgid "insert your cunsumer secret key here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:493
+#: assets/frontend/translate/cs-strings-3.php:154
+msgid "Access Token"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:494
+msgid "insert access token here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:495
+#: assets/frontend/translate/cs-strings-3.php:156
+msgid "Access Token Secret"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:496
+msgid "insert access token secret here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:500
+msgid "import & export"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:501
+msgid "Theme Backup Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:502
+msgid "Backup"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:503
+msgid "Widgets Backup Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:504
+msgid "Widgets Backup"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:508
+msgid "Typography / Fonts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:509
+msgid "Custom Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:510
+msgid "Fonts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:512
+msgid "Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:513
+msgid "Footer sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:514
+msgid "MAINTENANCE MODE"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:515
+msgid "API Setting"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:516
+msgid "Layout"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:517
+msgid "Layout type"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:518
+#: assets/frontend/translate/cs-strings.php:1519
+#: assets/frontend/translate/cs-strings-3.php:122
+#: assets/frontend/translate/cs-strings-3.php:159
+msgid "Boxed"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:519
+msgid "Background"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:520
+msgid "Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:521
+msgid "Set Subheader Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:522
+msgid "Breadcrumb Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:523
+msgid "Set Subheader Breadcrumb Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:524
+msgid "Pattern"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:525
+msgid "Custom Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:526
+msgid "Background image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:527
+msgid "Choose from Predefined Background images."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:528
+msgid "Background pattern"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:529
+msgid "Choose from Predefined Pattern images."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:530
+msgid "Provide a hex color code here (with #) for theme background color."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:531
+msgid "This option can be used only with Boxed Layout."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:532
+msgid "Background image position"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:533
+msgid "Choose image position for body background"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:534
+msgid "no-repeat center top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:535
+msgid "repeat center top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:536
+msgid "no-repeat center"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:537
+msgid "Repeat Center"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:538
+msgid "no-repeat left top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:539
+msgid "repeat left top"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:540
+msgid "no-repeat fixed center"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:541
+msgid "no-repeat center / cover"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:545
+msgid "Text Us"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:546
+#: assets/frontend/translate/cs-strings.php:548
+#: assets/frontend/translate/cs-strings.php:550
+#: assets/frontend/translate/cs-strings.php:780
+#: assets/frontend/translate/cs-strings.php:938
+#: assets/frontend/translate/cs-strings.php:1018
+#: assets/frontend/translate/cs-strings.php:1119
+#: assets/frontend/translate/cs-strings.php:1318
+#: assets/frontend/translate/cs-strings.php:1329
+msgid "Element Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:547
+msgid "Call Us"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:551
+msgid "Form Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:556
+msgid "POSTED ON"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:557
+msgid "BY"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:558
+#: assets/frontend/translate/cs-strings-2.php:199
+msgid "ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:559
+msgid "Log Out"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:571
+msgid "Demo"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:572
+msgid "Import"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:573
+msgid "Import Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:574
+msgid ""
+"Input the URL from another location and hit Import Button to apply settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:575
+msgid "Please select a page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:576
+msgid "Export Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:577
+msgid "Restore"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:578
+msgid "Error saving file!"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:579
+msgid "Backup Generated."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:580
+#, php-format
+msgid "File '%s' Deleted Successfully"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:581
+msgid "Error Deleting file!"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:582
+msgid "File Import Successfully"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:583
+msgid "Error Restoring file!"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:584
+#, php-format
+msgid "File '%s' Restore Successfully"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:585
+msgid ""
+"Here you can Generate/Download Backups. Also you can use these Backups to "
+"Restore settings."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:586
+msgid "Download"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:587
+msgid "Generate Backup"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:588
+msgid "Import Widgets"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:589
+msgid "Show Widget Settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:590
+msgid "Font Family"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:591
+msgid "Google Font Family"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:592
+msgid "Custom Font Family"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:593
+msgid "Custom Font Weight"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:596
+msgid "Add Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:597
+msgid "Added Sidebars"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:598
+msgid "Actions"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:599
+#: assets/frontend/translate/cs-strings.php:1904
+msgid "Are you sure! You want to delete this"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:600
+#: assets/frontend/translate/cs-strings.php:1135
+#: assets/frontend/translate/cs-strings.php:1205
+#: assets/frontend/translate/cs-strings.php:1206
+#: assets/frontend/translate/cs-strings.php:1215
+#: assets/frontend/translate/cs-strings.php:1216
+#: assets/frontend/translate/cs-strings.php:1231
+#: assets/frontend/translate/cs-strings-2.php:208
+msgid "Remove"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:601
+msgid "Please enter the desired title of Footer sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:602
+msgid "2 Column (16.67%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:603
+msgid "3 Column (25%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:604
+msgid "4 Column (33.33%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:605
+msgid "6 Column (50%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:606
+msgid "8 Column (66.66%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:607
+msgid "9 Column (75%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:608
+msgid "10 Column (83.33%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:609
+msgid "12 Column (100%)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:610
+msgid "SiderBar Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:611
+msgid "Sider Bar Width"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:612
+#: assets/frontend/translate/cs-strings.php:872
+#: assets/frontend/translate/cs-strings.php:894
+#: assets/frontend/translate/cs-strings.php:924
+#: assets/frontend/translate/cs-strings.php:1141
+msgid "Icon Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:613
+msgid "Set Icon Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:614
+msgid "+ Add to List"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:615
+msgid "Added Social Icons"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:616
+msgid "Network Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:617
+msgid "Export Widgets"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:618
+msgid " Default Font"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:619
+msgid "STICKY POST"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:632
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:633
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:634
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:635
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:636
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:637
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:638
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:639
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:640
+#: include/backend/cs-activation-plugins/cs-plugin-activation.php:352
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:641
+#: include/backend/cs-activation-plugins/cs-plugin-activation.php:356
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:642
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:643
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:644
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:645
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/frontend/translate/cs-strings.php:646
+#: assets/frontend/translate/cs-strings-2.php:61
+msgid "Install Required Plugins"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:647
+#: assets/frontend/translate/cs-strings-2.php:62
+msgid "Install Plugins"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:649
+#: assets/frontend/translate/cs-strings-2.php:64
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:650
+#: assets/frontend/translate/cs-strings-2.php:65
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:651
+#, php-format
+msgid ""
+"There is an update available for: %1$s. There are updates available for the "
+"following plugins: %1$s."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:652
+msgid "Begin updating plugin Begin updating plugins"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:653
+#: assets/frontend/translate/cs-strings-2.php:71
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:654
+#: assets/frontend/translate/cs-strings-2.php:74
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:655
+#: assets/frontend/translate/cs-strings-2.php:76
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:656
+#: assets/frontend/translate/cs-strings-2.php:77
+msgid "Update Required"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:657
+#: assets/frontend/translate/cs-strings.php:679
+msgid "updated"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:658
+#: assets/frontend/translate/cs-strings.php:680
+#: assets/frontend/translate/cs-strings-2.php:99
+msgid "Version"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:659
+#: assets/frontend/translate/cs-strings-2.php:104
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:660
+#: assets/frontend/translate/cs-strings-2.php:108
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:661
+#: assets/frontend/translate/cs-strings-2.php:109
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:662
+#: assets/frontend/translate/cs-strings-2.php:111
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:663
+#: assets/frontend/translate/cs-strings-2.php:110
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:664
+#: assets/frontend/translate/cs-strings-2.php:95
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:665
+#: assets/frontend/translate/cs-strings-2.php:101
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:666
+#: assets/frontend/translate/cs-strings-2.php:102
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:667
+#: assets/frontend/translate/cs-strings-2.php:103
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:668
+#: assets/frontend/translate/cs-strings-2.php:94
+msgid "Available version:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:669
+#: assets/frontend/translate/cs-strings-2.php:93
+msgid "Minimum required version:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:670
+#: assets/frontend/translate/cs-strings-2.php:92
+msgid "Installed version:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:671
+#: assets/frontend/translate/cs-strings-2.php:131
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:672
+#: assets/frontend/translate/cs-strings-2.php:130
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:673
+#: assets/frontend/translate/cs-strings-2.php:91
+msgid "Update recommended"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:674
+#: assets/frontend/translate/cs-strings-2.php:89
+msgid "Required Update not Available"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:675
+#: assets/frontend/translate/cs-strings.php:794
+#: assets/frontend/translate/cs-strings.php:1101
+#: assets/frontend/translate/cs-strings.php:1222
+#: assets/frontend/translate/cs-strings-2.php:88
+msgid "Active"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:676
+#: assets/frontend/translate/cs-strings-2.php:90
+msgid "Requires Update"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:677
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:678
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:681
+#: assets/frontend/translate/cs-strings-2.php:113
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:682
+#: assets/frontend/translate/cs-strings-2.php:112
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:683
+#: assets/frontend/translate/cs-strings-2.php:132
+#: assets/frontend/translate/cs-strings-3.php:72
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:684
+msgid ""
+"The following plugin was activated successfully: The following plugins were "
+"activated successfully:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:686
+#: assets/frontend/translate/cs-strings-2.php:63
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:687
+msgid "Something went wrong."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:688
+#: assets/frontend/translate/cs-strings-2.php:66
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:689
+msgid "Return to the dashboard"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:690
+#: assets/frontend/translate/cs-strings.php:722
+#: assets/frontend/translate/cs-strings-2.php:68
+#: assets/frontend/translate/cs-strings-2.php:115
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:691
+#: assets/frontend/translate/cs-strings-2.php:69
+#: assets/frontend/translate/cs-strings-2.php:138
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:692
+#: assets/frontend/translate/cs-strings-2.php:72
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:693
+#: assets/frontend/translate/cs-strings-2.php:73
+msgid "Dismiss this notice"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:694
+#: assets/frontend/translate/cs-strings-2.php:75
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:695
+msgid ""
+"The remote plugin package is does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:696
+#: assets/frontend/translate/cs-strings.php:698
+#: assets/frontend/translate/cs-strings-2.php:80
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:697
+#: assets/frontend/translate/cs-strings-2.php:79
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:699
+#: assets/frontend/translate/cs-strings-2.php:70
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:700
+#: assets/frontend/translate/cs-strings-2.php:84
+msgid "External Source"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:701
+#: assets/frontend/translate/cs-strings-2.php:85
+msgid "Pre-Packaged"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:702
+#: assets/frontend/translate/cs-strings-2.php:83
+msgid "WordPress Repository"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:703
+#: assets/frontend/translate/cs-strings-2.php:81
+msgid "Required"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:704
+#: assets/frontend/translate/cs-strings-2.php:82
+msgid "Recommended"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:705
+#: assets/frontend/translate/cs-strings-2.php:86
+msgid "Not Installed"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:706
+#: assets/frontend/translate/cs-strings-2.php:87
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:707
+msgid "No plugins to install or activate. Return to the Dashboard"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:708
+#: assets/frontend/translate/cs-strings-2.php:96
+msgid "Plugin"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:709
+#: assets/frontend/translate/cs-strings-2.php:97
+msgid "Source"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:710
+#: assets/frontend/translate/cs-strings-2.php:98
+msgid "Type"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:711
+#: assets/frontend/translate/cs-strings-2.php:100
+msgid "Status"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:712
+#: assets/frontend/translate/cs-strings-2.php:105
+msgid "Install"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:713
+#: assets/frontend/translate/cs-strings-2.php:107
+msgid "Activate"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:714
+msgid "No plugins are available to be installed at this time"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:715
+msgid "Install package not available"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:716
+#, php-format
+msgid "Downloading install package from %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:717
+msgid "Unpacking the package"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:718
+msgid "Installing the plugin"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:719
+msgid "Plugin install failed."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:720
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:721
+#: assets/frontend/translate/cs-strings-2.php:114
+msgid "Plugin activation failed."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:723
+#, php-format
+msgid "An error occurred while installing %1$s: %2$s."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:724
+#: assets/frontend/translate/cs-strings-2.php:118
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:725
+#: assets/frontend/translate/cs-strings-2.php:119
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:726
+#: assets/frontend/translate/cs-strings-2.php:120
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:727
+#: assets/frontend/translate/cs-strings-2.php:121
+msgid "Show Details"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:728
+#: assets/frontend/translate/cs-strings-2.php:123
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:729
+#: assets/frontend/translate/cs-strings-2.php:124
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:730
+#: assets/frontend/translate/cs-strings-2.php:125
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:731
+#: assets/frontend/translate/cs-strings-2.php:122
+msgid "Hide Details"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:732
+#: assets/frontend/translate/cs-strings-2.php:126
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:733
+#: assets/frontend/translate/cs-strings-2.php:127
+msgid "All installations have been completed."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:734
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:735
+#: assets/frontend/translate/cs-strings-2.php:55
+msgid "Real Estate Framework"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:736
+msgid "Wp Rem Activity Notifications"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:737
+msgid "Wp Rem Email Templates"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:738
+msgid "Wp Rem Notifications"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:739
+msgid "Wp Rem Shortlists"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:740
+#: assets/frontend/translate/cs-strings-2.php:57
+msgid "WP Real Estate Manager"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:741
+msgid "Cs Icons Manager"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:742
+msgid "Loco translate"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:743
+msgid "Something went wrong with the plugin API"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:759
+msgid "About a Minute Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:760
+#, php-format
+msgid "%d Minutes Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:761
+msgid "About an Hour Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:762
+#, php-format
+msgid "%d Hours Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:763
+msgid "About a Day Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:764
+#, php-format
+msgid "%d Days Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:765
+msgid "About a Week Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:766
+#, php-format
+msgid "%d Weeks Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:767
+msgid "About a Month Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:768
+#, php-format
+msgid "%d Months Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:769
+msgid "About a year Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:770
+#, php-format
+msgid "%d years Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:774
+msgid "App Store Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:775
+msgid "App Store URL"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:776
+msgid "Google Play Store"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:777
+msgid "Google Play Store URL"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:781
+#: assets/frontend/translate/cs-strings.php:1120
+msgid "Enter element title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:783
+msgid "Title Alignment"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:784
+msgid "Select title alignment here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:785
+#: assets/frontend/translate/cs-strings.php:978
+#: assets/frontend/translate/cs-strings.php:1311
+#: assets/frontend/translate/cs-strings.php:1523
+msgid "Left"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:786
+#: assets/frontend/translate/cs-strings.php:979
+#: assets/frontend/translate/cs-strings.php:1312
+#: assets/frontend/translate/cs-strings.php:1524
+msgid "Right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:787
+#: assets/frontend/translate/cs-strings.php:980
+msgid "Center"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:788
+msgid "Bottom"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:790
+#: assets/frontend/translate/cs-strings.php:1218
+msgid "Tab Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:791
+#: assets/frontend/translate/cs-strings.php:1221
+msgid "Select your tabs style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:792
+#: assets/frontend/translate/cs-strings.php:1219
+msgid "Vertical"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:793
+#: assets/frontend/translate/cs-strings.php:1220
+msgid "Horizontal"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:795
+#: assets/frontend/translate/cs-strings.php:1223
+msgid ""
+"You can set the tab section that is open by default on frontend by select "
+"dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:796
+#: assets/frontend/translate/cs-strings.php:1224
+msgid "Tab Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:797
+#: assets/frontend/translate/cs-strings.php:1225
+msgid "Enter tab title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:798
+#: assets/frontend/translate/cs-strings.php:1232
+msgid "Tab Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:799
+#: assets/frontend/translate/cs-strings.php:1234
+msgid "Select the Icons you would like to show with your Tabs ."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:800
+#: assets/frontend/translate/cs-strings.php:876
+#: assets/frontend/translate/cs-strings.php:892
+#: assets/frontend/translate/cs-strings.php:942
+#: assets/frontend/translate/cs-strings.php:1015
+#: assets/frontend/translate/cs-strings.php:1024
+#: assets/frontend/translate/cs-strings.php:1033
+#: assets/frontend/translate/cs-strings.php:1108
+#: assets/frontend/translate/cs-strings.php:1121
+#: assets/frontend/translate/cs-strings.php:1226
+#: assets/frontend/translate/cs-strings.php:1355
+#: assets/frontend/translate/cs-strings.php:1534
+#: assets/frontend/translate/cs-strings.php:1604
+#: assets/frontend/translate/cs-strings-2.php:207
+msgid "Content"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:801
+#: assets/frontend/translate/cs-strings.php:1227
+msgid "Enter the tab content here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:802
+#: assets/frontend/translate/cs-strings.php:1230
+msgid "Tab"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:803
+#: assets/frontend/translate/cs-strings.php:1197
+msgid "Tabs Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:804
+#: assets/frontend/translate/cs-strings.php:1233
+msgid "Add Tab"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:806
+msgid "Post Title Length"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:807
+msgid "Please enter post title length in numeric"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:808
+#: assets/frontend/translate/cs-strings.php:940
+#: assets/frontend/translate/cs-strings.php:1020
+#: assets/frontend/translate/cs-strings.php:1319
+msgid "Element Sub Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:809
+msgid "Enter element sub title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:810
+#: assets/frontend/translate/cs-strings.php:1866
+msgid "Excerpt Length"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:811
+msgid "Element Title Bottom Spacing"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:812
+msgid "Set element title bottom spacing(without px)."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:814
+msgid "Enter title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:815
+#: assets/frontend/translate/cs-strings.php:1144
+#: assets/frontend/translate/cs-strings.php:1579
+msgid "Title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:816
+msgid "Set title color with this color picker."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:817
+msgid "Select Column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:818
+#: assets/frontend/translate/cs-strings.php:1484
+#: assets/frontend/translate/cs-strings.php:1486
+msgid "Column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:819
+msgid "Team Views"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:820
+msgid "Choose team views here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:821
+#: assets/frontend/translate/cs-strings.php:867
+#: assets/frontend/translate/cs-strings.php:1305
+#: assets/frontend/translate/cs-strings.php:1425
+#: assets/frontend/translate/cs-strings.php:1445
+msgid "Medium"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:822
+#: assets/frontend/translate/cs-strings.php:1424
+#: assets/frontend/translate/cs-strings.php:1443
+msgid "Grid"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:824
+msgid "Grid Classic"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:825
+msgid "Grid Classic with Slider"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:826
+#: assets/frontend/translate/cs-strings.php:866
+#: assets/frontend/translate/cs-strings.php:1306
+#: assets/frontend/translate/cs-strings-3.php:115
+msgid "Small"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:828
+msgid "Enter your contact number"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:829
+msgid "Select Column view from this drop down"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:830
+msgid "Edit Form Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:831
+#: assets/frontend/translate/cs-strings.php:859
+#: assets/frontend/translate/cs-strings.php:1036
+#: assets/frontend/translate/cs-strings.php:1228
+#: assets/frontend/translate/cs-strings.php:1229
+#: assets/frontend/translate/cs-strings.php:1347
+#: assets/frontend/translate/cs-strings.php:1394
+#: assets/frontend/translate/cs-strings.php:1582
+#: assets/frontend/translate/cs-strings.php:1697
+#: assets/frontend/translate/cs-strings.php:1709
+msgid "Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:832
+msgid "contact me"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:833
+#: assets/frontend/translate/cs-strings.php:1522
+msgid "Alignment"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:834
+msgid "Set Alignment for Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:835
+msgid "Image Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:836
+#: assets/frontend/translate/cs-strings.php:851
+#: assets/frontend/translate/cs-strings.php:934
+#: assets/frontend/translate/cs-strings.php:1066
+#: assets/frontend/translate/cs-strings.php:1082
+#: assets/frontend/translate/cs-strings.php:1084
+#: assets/frontend/translate/cs-strings.php:1156
+#: assets/frontend/translate/cs-strings.php:1426
+#: assets/frontend/translate/cs-strings.php:2076
+#: assets/frontend/translate/cs-strings-2.php:213
+msgid "Simple"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:837
+#: assets/frontend/translate/cs-strings.php:1421
+#: assets/frontend/translate/cs-strings-2.php:216
+msgid "Featured"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:840
+msgid "Select Image from media gallery with this button"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:841
+msgid "Save"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:842
+#: assets/frontend/translate/cs-strings.php:1077
+msgid "Insert"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:843
+#: assets/frontend/translate/cs-strings.php:985
+#: assets/frontend/translate/cs-strings.php:1889
+#: assets/frontend/translate/cs-strings-3.php:142
+msgid "Yes"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:844
+#: assets/frontend/translate/cs-strings.php:986
+#: assets/frontend/translate/cs-strings.php:1890
+#: assets/frontend/translate/cs-strings-3.php:143
+msgid "No"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:845
+#: assets/frontend/translate/cs-strings.php:1380
+msgid "Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:846
+msgid "Site Map Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:847
+msgid "Enter Section title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:848
+msgid "Icon Box Option"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:849
+#: assets/frontend/translate/cs-strings.php:932
+#: assets/frontend/translate/cs-strings.php:1155
+#: assets/frontend/translate/cs-strings.php:1666
+#: assets/frontend/translate/cs-strings.php:1771
+#: assets/frontend/translate/cs-strings.php:2011
+#: assets/frontend/translate/cs-strings.php:2069
+#: assets/frontend/translate/cs-strings-2.php:217
+msgid "Views"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:850
+msgid "Set the Icon Box style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:852
+#: assets/frontend/translate/cs-strings.php:1525
+msgid "Top Center"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:853
+msgid "Enter Icon Box title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:854
+msgid "Icon Box Title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:855
+msgid "Set icon box title color here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:856
+msgid "Icon Type"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:857
+msgid "Select icon type image or font icon."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:858
+#: assets/frontend/translate/cs-strings.php:861
+#: assets/frontend/translate/cs-strings.php:888
+#: assets/frontend/translate/cs-strings.php:918
+#: assets/frontend/translate/cs-strings.php:923
+#: assets/frontend/translate/cs-strings.php:1150
+#: assets/frontend/translate/cs-strings.php:1303
+#: assets/frontend/translate/cs-strings.php:1908
+msgid "Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:860
+msgid "Attach image from media gallery."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:862
+msgid "Select the Icon you would like to show with your accordian title."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:863
+msgid "Icon Font Size"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:864
+msgid "Set the Icon Font Size"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:865
+msgid "Extra Small"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:868
+msgid "Medium Large"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:869
+#: assets/frontend/translate/cs-strings.php:1304
+#: assets/frontend/translate/cs-strings.php:1423
+#: assets/frontend/translate/cs-strings.php:1444
+#: assets/frontend/translate/cs-strings-3.php:116
+msgid "Large"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:870
+msgid "Extra Large"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:871
+msgid "Free Size"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:873
+#: assets/frontend/translate/cs-strings.php:879
+msgid ""
+"Provide a hex colour code here (with #) for text color. if you want to "
+"override the default."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:874
+msgid "Title Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:875
+msgid "Enter Icon Box title link here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:877
+#: assets/frontend/translate/cs-strings.php:1159
+#: assets/frontend/translate/cs-strings.php:1357
+msgid "Enter the content here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:880
+#: assets/frontend/translate/cs-strings.php:887
+#: assets/frontend/translate/cs-strings.php:903
+#: assets/frontend/translate/cs-strings.php:1079
+msgid "Counter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:881
+#: assets/frontend/translate/cs-strings.php:895
+msgid "Counter Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:883
+msgid "Enter Title Here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:884
+#: assets/frontend/translate/cs-strings.php:911
+#: assets/frontend/translate/cs-strings.php:1331
+#: assets/frontend/translate/cs-strings.php:1482
+msgid "Sub Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:885
+msgid "Enter Sub Tiltle Here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:886
+msgid "Add Counter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:889
+msgid "Please Select Icon "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:890
+msgid "Count"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:891
+msgid "Enter Counter Range"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:893
+#: assets/frontend/translate/cs-strings.php:1034
+msgid "Enter Content Here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:896
+msgid "Select Icon Color "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:897
+msgid "Count Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:898
+msgid "Select Count Color "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:900
+msgid "Select Content Color "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:901
+#: assets/frontend/translate/cs-strings.php:1966
+msgid "published by"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:902
+#: assets/frontend/translate/cs-strings.php:1968
+msgid "View all posts by "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:904
+msgid "Enter counter author name here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:905
+msgid "Choose Color of Counter Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:906
+msgid "Divider"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:907
+msgid "Divider setting on/off"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:908
+msgid "List Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:910
+msgid "Enter list title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:912
+msgid "Enter list sub title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:913
+msgid "List Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:914
+msgid "Choose list style from here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:916
+msgid "Numeric"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:917
+msgid "Bullet"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:919
+msgid "Alphabetic"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:920
+msgid "List Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:921
+msgid "List"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:922
+msgid "Enter list title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:925
+msgid "Select icon color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:926
+#: assets/frontend/translate/cs-strings.php:1502
+msgid "Icon Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:927
+msgid "Select icon background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:928
+msgid "Choose icon for list."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:929
+msgid "Add List Item"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:930
+msgid "Ads Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:931
+msgid "Headings Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:933
+msgid ""
+"Select headings style with this dropdown. simple and one Fancy view. All "
+"headings font sizes,color and family can be change from theme options."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:936
+msgid "Fancy Heading"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:937
+msgid "Enter text for fancy heading"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:939
+msgid "Enter your element title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:941
+msgid "Enter your element sub title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:943
+msgid "Enter content here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:944
+msgid "Font Size"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:945
+msgid "Add font size for heading here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:947
+msgid "Select style to heading. If you dont select heading it will display H1"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:948
+msgid "Capitalize"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:949
+msgid "Initial"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:950
+msgid "Inherit"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:951
+msgid "Lowercase"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:952
+msgid "None"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:953
+msgid "Uppercase"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:955
+msgid "Add letter spacing for heading here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:956
+msgid "Bottom Margin"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:957
+msgid "Enter heading bottom margin in numaric values only"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:959
+msgid "Add line height for heading here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:960
+msgid "Element title color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:961
+msgid "Choose element title color with this color picker."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:962
+msgid "Element sub title color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:963
+msgid "Select color title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:965
+msgid "select content color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:966
+msgid "Heading Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:967
+msgid ""
+"Select headings and style with this dropdown. H1 to H6 Headings and one "
+"Fancy view. All headings font sizes,color and family can be change from "
+"theme options."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:968
+msgid "H1"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:969
+msgid "H2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:970
+msgid "H3"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:971
+msgid "H4"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:972
+msgid "H5"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:973
+msgid "H6"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:974
+msgid "Heading Align"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:975
+msgid "Align the heading position with this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:976
+msgid "Heading View"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:977
+msgid "Select the heading view from this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:981
+#: assets/frontend/translate/cs-strings.php:1142
+#: assets/frontend/translate/cs-strings.php:1382
+msgid "Heading Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:982
+msgid "Choose heading color with this color picker."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:983
+msgid "Divider On/Off"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:984
+msgid "Set divider on/off for heading with this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:987
+msgid "Font Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:988
+msgid "Select the font style here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:989
+msgid "Normal"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:990
+msgid "Italic"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:991
+msgid "Oblique"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:992
+msgid "Add Team"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:993
+#: assets/frontend/translate/cs-strings.php:1175
+#: assets/frontend/translate/cs-strings.php:1176
+#: assets/frontend/translate/cs-strings.php:1632
+msgid "Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:994
+msgid "Enter team member name here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:995
+msgid "Designation"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:996
+#: assets/frontend/translate/cs-strings.php:1278
+#: assets/frontend/translate/cs-strings.php:1389
+#: assets/frontend/translate/cs-strings.php:1497
+msgid "Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:997
+msgid "Enter team member link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:998
+msgid "Enter team member designation here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:999
+msgid "Team Profile Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1000
+msgid "Select team member image from media gallery."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1001
+msgid "Phone No"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1002
+msgid "Enter phone number here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1003
+#: assets/frontend/translate/cs-strings.php:1180
+#: assets/frontend/translate/cs-strings.php:1856
+#: assets/frontend/translate/cs-strings.php:1934
+#: assets/frontend/translate/cs-strings.php:2093
+msgid "Email"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1004
+msgid "Enter email for contact."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1006
+msgid "Enter facebook account link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1008
+msgid "Enter twitter account link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1010
+msgid "Enter google+ accoount link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1011
+msgid "Linkedin"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1012
+msgid "Enter linkedin account link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1013
+msgid "Youtube"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1014
+msgid "Enter youtube link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1016
+msgid "Enter team member content here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1017
+msgid "Team Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1019
+#: assets/frontend/translate/cs-strings.php:1058
+msgid "Enter Element Title Here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1021
+msgid "Enter Element Sub Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1022
+msgid "Team"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1023
+msgid "Call to Action Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1025
+msgid "Enter Content here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1026
+msgid "select content color with this color picker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1027
+msgid "Define call to action background color with this color picker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1028
+msgid "Button Text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1029
+msgid "Give the name of the quote author"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1030
+msgid "Quote"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1031
+msgid "Blockquote OPTIONS"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1032
+msgid "Dropcap OPTIONS"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1035
+msgid "Author Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1037
+msgid "Give the URL of author profile external/internal"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1038
+msgid "Button Border Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1039
+msgid "Select Button Border color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1040
+#: assets/frontend/translate/cs-strings.php:1598
+msgid "Button Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1041
+msgid "Select Button Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1042
+msgid "Set the button color for your call to action."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1043
+#: assets/frontend/translate/cs-strings.php:1137
+#: assets/frontend/translate/cs-strings.php:1358
+#: assets/frontend/translate/cs-strings.php:1594
+msgid "Button Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1044
+msgid "Enter text of the button."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1045
+#: assets/frontend/translate/cs-strings.php:1592
+msgid "Button Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1046
+msgid "Enter button link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1047
+msgid "Text Align"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1048
+msgid "Set sub header alignment here for all pages."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1049
+msgid "Center Align"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1050
+msgid "Left Align"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1051
+msgid "Right Align"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1052
+msgid "Custom Id"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1053
+msgid "Use this option if you want to use specified id for this element."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1054
+msgid "Call To Action"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1055
+msgid "Image Position"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1056
+msgid "Clients Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1057
+msgid "Element title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1059
+msgid "Per Slide"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1060
+msgid "Enter the number of images to be shown for a row"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1061
+msgid "Client Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1062
+msgid "Select the style for clients logos"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1063
+msgid "Client View"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1064
+msgid "Select the view for clients logos"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1070
+#: assets/frontend/translate/cs-strings.php:1078
+msgid "Slider"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1071
+msgid "Modern with Border"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1072
+msgid "Client Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1073
+msgid "Enter Url for Client logo"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1074
+msgid "Client Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1075
+msgid "Enter The Image for Client"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1076
+msgid "Add Client"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1080
+msgid "Accordion"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1081
+msgid "Add your title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1085
+msgid "Faq Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1086
+#: assets/frontend/translate/cs-strings.php:1088
+#: assets/frontend/translate/cs-strings.php:1545
+msgid "View"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1087
+msgid "select view for accordion"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1089
+msgid "select view for faq"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1090
+msgid "select icon for faq"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1091
+msgid "Edit Tabs options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1092
+#: assets/frontend/translate/cs-strings-3.php:107
+msgid "Margin Left"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1093
+#: assets/frontend/translate/cs-strings-3.php:109
+msgid "Margin Right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1094
+msgid "Enter margin left without px"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1095
+msgid "Enter margin right without px"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1096
+msgid "Enter Sub Title Here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1097
+msgid "Accordion Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1098
+msgid "Faq Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1099
+msgid "Columns"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1100
+msgid "Select No Of Columns"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1102
+msgid ""
+"You can set the accordion section that is open by default on frontend by "
+"select dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1103
+msgid ""
+"You can set the faq section that is open by default on frontend by select "
+"dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1105
+msgid "enter title for your accordion"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1106
+msgid "enter title for your faq"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1107
+msgid "Q."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1109
+msgid "Enter content for acordion"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1110
+msgid "Enter content for faq"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1111
+msgid "Add Accordion"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1112
+msgid "Add Faq"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1113
+#: assets/frontend/translate/cs-strings.php:1488
+msgid "One Column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1114
+#: assets/frontend/translate/cs-strings.php:1489
+msgid "Two Column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1115
+#: assets/frontend/translate/cs-strings.php:1490
+msgid "Three Column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1116
+#: assets/frontend/translate/cs-strings.php:1491
+msgid "Four Column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1117
+#: assets/frontend/translate/cs-strings.php:1492
+msgid "Six Column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1118
+msgid "Columns Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1122
+msgid "Enter content of the column"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1123
+msgid "Top Padding"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1124
+msgid "Enter padding top without px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1125
+msgid "Bottom Padding"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1126
+msgid "Enter padding bottom without px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1127
+msgid "Left Padding"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1128
+msgid "Enter padding left without px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1129
+msgid "Right Padding"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1130
+msgid "Enter padding right without px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1131
+#: assets/frontend/translate/cs-strings.php:1396
+msgid "Background Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1132
+msgid "Select Image for column background."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1133
+msgid "Element Title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1134
+msgid "Infobox"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1136
+msgid "Infobox Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1138
+msgid "Add button text for Get in Touch"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1139
+msgid "Button URL"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1140
+msgid "Add button url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1143
+msgid "Set the Color for Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1145
+msgid "Set the Color for Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1146
+msgid "Content color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1147
+msgid "Set the Color for Content"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1148
+msgid "Info Box Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1149
+msgid "Select the Icons you would like to show in infobox section."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1151
+msgid "Select the icons you would like to show in price table."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1152
+msgid "Infobox Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1153
+msgid "Enter the infobox title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1154
+msgid "Infobox Content"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1160
+msgid "Add Item"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1161
+#: assets/frontend/translate/cs-strings.php:1336
+#: assets/frontend/translate/cs-strings.php:1548
+#: assets/frontend/translate/cs-strings.php:1876
+#: assets/frontend/translate/cs-strings.php:2026
+msgid "Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1162
+msgid "Contact Form Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1163
+msgid "Schedule Form Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1164
+msgid "Best time"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1165
+msgid "Request a service"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1166
+msgid "Receiver Email"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1167
+msgid "Schedule Services Hint Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1168
+msgid "This hint text will show right side of schedule button."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1169
+msgid "Receiver, or receivers of the mail."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1170
+msgid "Success Message"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1171
+msgid "Enter Mail Successfully Send Message."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1172
+msgid "Error Message"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1173
+msgid "Enter Error Message In any case Mail Not Submited."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1177
+msgid "First Name & Last Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1178
+#: assets/frontend/translate/cs-strings.php:1722
+msgid "Subject"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1179
+msgid "About this Listing"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1181
+msgid "Example@domain.com"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1182
+msgid "Phone Number"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1183
+msgid "773.702.8650"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1184
+msgid "Send A message"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1186
+msgid "Make/Model"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1187
+msgid "Email should not be empty."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1188
+msgid "Please enter a valid email."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1189
+msgid "Mileage (optional)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1190
+msgid "Subscribe and Get latest updates and offers by Email"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1191
+msgid ""
+"I am interested in a price quote on this vehicle. Please contact me at you "
+"earliest convenience with your best price for this vehicle"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1192
+msgid " *ERROR: please fill the required fields."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1193
+msgid "Email has been sent Successfully"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1194
+msgid "An error Occured, please try again later"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1195
+msgid "IP Address:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1196
+msgid "Contact Form Received"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1198
+msgid "Select Tab Parent"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1199
+msgid "Select Tab Pareent from dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1200
+msgid "Enter Tab Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1201
+msgid "Facny Tabs Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1202
+msgid "Add tab title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1203
+msgid "Enter Tab Descreption"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1204
+#: assets/frontend/translate/cs-strings.php:1214
+#: assets/frontend/translate/cs-strings.php:2062
+msgid "Add Content"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1207
+msgid "Fancy Tab"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1208
+#: assets/frontend/translate/cs-strings.php:2059
+msgid "Select Faq Parent"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1209
+msgid "Select Faq Pareent from dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1210
+#: assets/frontend/translate/cs-strings.php:2058
+msgid "Enter Faq Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1211
+msgid "Fancy faqs options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1212
+msgid "Add Faq title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1213
+#: assets/frontend/translate/cs-strings.php:2060
+msgid "Enter Faq Descreption"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1217
+msgid "Fancy Faq"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1235
+msgid "Map"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1236
+msgid "Map Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1237
+#: assets/frontend/translate/cs-strings.php:1562
+msgid "Height"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1238
+msgid "Map height set here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1239
+msgid "Latitude"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1240
+msgid ""
+"Latitude is the angular distance of a place north or south of the earths "
+"equator, or of the equator of a celestial object, usually expressed in "
+"degrees and minutes."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1241
+msgid "Longitude"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1242
+msgid ""
+"Longitude the angular distance of a place east or west of the Greenwich "
+"meridian, or west of the standard meridian of a celestial object, usually "
+"expressed in degrees and minutes."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1243
+msgid "Zoom"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1244
+msgid ""
+"Set map zoom level example 10 or leave it empty by deafult will be apply."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1245
+msgid "Map Types"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1246
+msgid "Choose map type with this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1247
+msgid "ROADMAP"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1248
+msgid "HYBRID"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1249
+msgid "SATELLITE"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1250
+msgid "TERRAIN"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1251
+msgid "Info Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1253
+msgid "Enter goole api key here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1254
+msgid "Enter info text for marker."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1255
+msgid "Info Text Width"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1256
+msgid "Set info text max width here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1257
+msgid "Info Text Height"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1258
+msgid "Set info text max height here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1259
+msgid "Marker Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1260
+msgid "Select the Marker Icon Path for element."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1261
+msgid "Show Marker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1262
+msgid "This switch on/off marker from the map."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1263
+msgid "On"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1264
+msgid "Off"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1265
+msgid "Disable Controls"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1266
+msgid "Map control disable/enable with this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1267
+msgid "Draggable"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1268
+msgid "Draggable On/Off in map."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1269
+msgid "Scroll Wheel"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1270
+msgid "Set Scroll wheel zoom in zoom out enable disable from this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1271
+#: assets/frontend/translate/cs-strings.php:1683
+msgid "Border"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1272
+msgid "Set border for map"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1273
+#: assets/frontend/translate/cs-strings.php:1287
+msgid "Border Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1274
+msgid "Choose map border color."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1275
+msgid "Buttons Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1276
+msgid "Label"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1277
+msgid "Add button text here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1279
+msgid "Enter button link/url here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1280
+msgid "Button Padding Top "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1281
+msgid "Enter button top padding for Button"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1282
+msgid "Button Padding Bottom "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1283
+msgid "Enter button bottom padding "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1284
+msgid "Button Padding Left "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1285
+msgid "Enter button Left padding "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1286
+msgid "Lable Color "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1288
+msgid "Define button border color with this color picker."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1289
+msgid "Define button text color with this color picker."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1290
+msgid "Button Padding Right "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1291
+msgid "Enter button padding Right "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1292
+msgid "Enable Border "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1293
+msgid "Enable/Disable button border with this drop down."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1294
+msgid "Type "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1295
+msgid ""
+"Select button type with this dropdown two button types avaiable rounded and "
+"square"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1296
+msgid "Square "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1297
+msgid "Rounded "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1298
+msgid "Background Color "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1299
+msgid "Define button border color with this color picker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1301
+msgid "Icon ON/OFF"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1302
+msgid "Set button icon on/off from this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1307
+msgid "Select the Icons you would like to show in your button."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1308
+msgid "Select button size.Three sizes avaiable Large, Medium and Small"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1309
+msgid "Icon Position "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1310
+msgid "Select button icon position with this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1313
+msgid "Open link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1314
+msgid "Select target type"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1315
+msgid "In same tab"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1316
+msgid "In new tab"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1317
+msgid "Image Frame Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1320
+msgid "Enter element sub title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1321
+#: assets/frontend/translate/cs-strings.php:1330
+msgid "Enter element title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1322
+msgid "Image Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1323
+msgid "Enter image title."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1324
+msgid "Select Image "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1325
+msgid "Select image from media gallery with this button."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1326
+msgid "Caption"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1327
+msgid "Enter caption text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1328
+msgid "Mail Chimp Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1332
+msgid "Enter sub title."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1333
+msgid "Mail description "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1334
+msgid "Enter mail Description here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1335
+msgid "Mail Chimp"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1337
+msgid "Set background color for newsletter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1339
+msgid "Promobox Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1340
+msgid "About Info Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1341
+#: assets/frontend/translate/cs-strings.php:1493
+msgid "Content Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1342
+msgid "Please enter content title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1343
+msgid "Content Sub Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1344
+msgid "Please enter content sub title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1345
+msgid "Select Background"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1346
+msgid "Select background from this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1349
+msgid "Button Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1350
+msgid "Enter button url here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1351
+msgid "Select Background Image "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1352
+msgid "Select a image for promobox background"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1353
+msgid "Select Background Color "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1354
+msgid "Select a color for promobox background"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1356
+msgid "Enter the Promobox Description here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1359
+msgid "Enter Promobox button title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1360
+msgid "Enter button title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1361
+msgid "Select Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1362
+msgid "Choose image for promobox"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1363
+msgid "Choose image for about info"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1364
+msgid "Button Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1365
+msgid "Choose Button Color here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1366
+msgid "Choose button background color here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1367
+msgid "Content Title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1368
+msgid "Choose content title color here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1369
+msgid "Content Sub Title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1370
+msgid "Choose content sub title color here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1371
+msgid "Image Description"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1372
+msgid "If you would like a caption to be shown below the image, add it here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1373
+msgid "Author Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1375
+msgid "Enter your title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1376
+msgid "Sub title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1377
+msgid "Enter your sub title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1378
+msgid "Text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1379
+msgid "Set text color here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1381
+msgid "Author Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1383
+msgid "Address Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1384
+msgid "Position Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1385
+msgid "Enter testimonial content here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1386
+msgid "Description Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1387
+#: assets/frontend/translate/cs-strings.php:1789
+msgid "Author"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1390
+msgid "Enter testimonial author link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1391
+msgid "Enter testimonial author name here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1393
+msgid "Enter address of author here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1395
+msgid "Set author image from media gallery."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1397
+msgid "Set Background image from media gallery."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1398
+msgid "Testimonial"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1399
+msgid "Testimonial Views"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1400
+msgid "Choose testimonial views."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1403
+msgid "Add Testimonial"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1404
+msgid "Testimonial options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1405
+msgid "Padding Left"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1406
+msgid "Set padding left for the divider in px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1407
+msgid "Padding Right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1408
+msgid "Set padding right for the divider in px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1410
+msgid "Set margin top for the divider in px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1412
+msgid "Set margin bottom for the divider in px."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1413
+#: assets/frontend/translate/cs-strings.php:1464
+msgid "Align"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1414
+msgid "Select Alignment Of Divider"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1415
+msgid "Divider Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1416
+msgid "Blog Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1417
+msgid "Enter your blog section title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1418
+#: assets/frontend/translate/cs-strings.php:1849
+msgid ""
+"Select category to show posts. If you dont select category it will display "
+"all posts."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1419
+msgid "Blog Design Views"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1420
+msgid "Published"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1422
+msgid "Select blog view from this drop down"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1428
+msgid "Medium Default"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1429
+msgid "Medium List"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1430
+msgid "Read Article"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1432
+#: assets/frontend/translate/cs-strings.php:1715
+msgid "CS : Author"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1433
+#: assets/frontend/translate/cs-strings.php:1716
+msgid "A widget for displaying selected user data "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1434
+#: assets/frontend/translate/cs-strings.php:1717
+msgid "Choose Author"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1435
+msgid "No users found."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1436
+msgid " Stories / "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1438
+#: assets/frontend/translate/cs-strings.php:2030
+msgid "Order By"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1439
+#: assets/frontend/translate/cs-strings.php:2031
+msgid "Order Direction"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1440
+msgid "Post ID"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1442
+#: assets/frontend/translate/cs-strings.php:1633
+msgid "Date"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1446
+msgid "Post Order"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1447
+msgid ""
+"Arranging posts in ascending order and descending order with this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1448
+#: assets/frontend/translate/cs-strings.php:1468
+msgid "ASC"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1449
+#: assets/frontend/translate/cs-strings.php:1469
+msgid "DESC"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1450
+msgid "Post Description"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1451
+msgid "Show/Hide post description with this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1452
+#: assets/frontend/translate/cs-strings.php:1472
+msgid "Length of Excerpt"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1453
+msgid "Add number of excerpt words here for display on blog listing."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1454
+msgid "No. of Post Per Page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1455
+msgid "Add number of post for show posts on page."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1456
+#: assets/frontend/translate/cs-strings.php:1476
+msgid "Pagination"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1457
+#: assets/frontend/translate/cs-strings.php:1477
+msgid ""
+"Pagination is the process of dividing a document into discrete pages. Manage "
+"your pagiantion via this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1458
+#: assets/frontend/translate/cs-strings.php:1678
+msgid "Show Pagination"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1461
+msgid "Single Page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1463
+msgid "All Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1465
+msgid "Add Icon Box"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1466
+msgid "Author Order"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1467
+msgid "Select Author Listing Order"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1470
+msgid "Author Description"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1471
+msgid "Show/Hide author description with this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1473
+msgid "Add number of excerpt words here for display on author listing."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1474
+msgid "No. of author Per Page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1475
+msgid "Add number of author for show authors on page."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1478
+msgid "Icon Box"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1479
+msgid "Edit Multi icon Box options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1481
+msgid "Enter your  title here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1483
+msgid "Enter sub title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1485
+msgid "Select number of columns"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1487
+msgid "Select the number of column "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1494
+msgid "Add icon Box title here.."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1495
+msgid "Icon Box Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1496
+msgid "Add icon box title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1498
+msgid "e.g. http://yourdomain.com/."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1499
+msgid "Content title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1500
+msgid ""
+"Provide a hex colour code here (with #) for text color. if you want to "
+"override the default. "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1501
+msgid "Select the icon you would like to show with your icon box title."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1503
+msgid "Set the icon Box Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1504
+#: assets/frontend/translate/cs-strings.php:1532
+msgid "Icon Box icon Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1505
+msgid "Icon Box Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1506
+#: assets/frontend/translate/cs-strings.php:1533
+msgid "Set icon box icon color here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1507
+#: assets/frontend/translate/cs-strings.php:1537
+msgid "Icon Box Content"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1508
+#: assets/frontend/translate/cs-strings.php:1535
+#: assets/frontend/translate/cs-strings.php:1538
+msgid "Enter icon box content here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1509
+msgid "Element Title color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1510
+msgid ""
+"Provide a hex colour code here (with #) for element title color. if you want "
+"to override the default."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1511
+msgid "Single icon Box Title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1512
+msgid "Set Single icon Box title color from here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1513
+#: assets/frontend/translate/cs-strings.php:1569
+#: assets/frontend/translate/cs-strings.php:2063
+#: assets/frontend/translate/cs-strings-3.php:88
+#: assets/frontend/translate/cs-strings-3.php:128
+msgid "Styles"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1514
+#: assets/frontend/translate/cs-strings.php:2064
+msgid "Choose styles for icon box."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1516
+msgid "Has-Border"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1518
+msgid "Awards"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1521
+msgid "Boxed v2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1526
+msgid "Top Left"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1527
+msgid "Top Right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1528
+msgid "Left Right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1529
+msgid "Set the position of icon_box image here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1530
+msgid "Single icon Box icon Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1531
+msgid ""
+"Provide a hex colour code here (with #) for icon color. if you want to "
+"override the default."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1536
+msgid "Add content here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1539
+msgid "Add Service"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1541
+msgid "Tweets OPTIONS"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1543
+msgid "Twitter User Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1544
+msgid "Enter your twitter user name here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1549
+msgid "Set twitter section background color here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1550
+msgid "No of Tweets"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1551
+msgid "Enter no of tweets here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1552
+msgid "Class"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1553
+msgid "Please enter valid Twitter API Keys"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1554
+msgid "No Tweets Found"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1557
+msgid "Enter text of the Title."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1558
+msgid "Video Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1559
+msgid "Enter url for the video here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1560
+#: assets/frontend/translate/cs-strings.php:1877
+msgid "Width"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1561
+msgid "Set video frame width here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1563
+msgid "Set video frame height here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1564
+msgid "Video Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1565
+msgid "Spacer Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1566
+msgid "Spacer Height"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1567
+msgid "Set spacer height without(px)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1570
+msgid "Choose multi price table style here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1574
+msgid "Price Table"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1575
+msgid "Add Price Table"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1576
+msgid "Pricing Tables OPTIONS"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1578
+msgid "Enter Price plan Title Here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1580
+msgid "Set price-table title color from here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1581
+msgid "Price Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1583
+msgid "Set Price color from here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1584
+#: assets/frontend/translate/cs-strings-3.php:36
+msgid "Price"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1585
+msgid "Add price without symbol"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1586
+msgid "Currency Symbols"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1587
+msgid "Add your currency symbol here like $"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1588
+msgid "Packeges"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1589
+msgid "Select Package"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1590
+msgid "Time Duration"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1591
+msgid ""
+"Add time duration for package or time range like this package for a month or "
+"year So write here for Mothly and year for Yearly Package"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1593
+msgid "Add price table button Link here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1595
+msgid "Add button text here Example : Buy Now, Purchase Now, View Packages etc"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1596
+msgid "Button text Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1597
+msgid "Set button color with color picker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1599
+msgid "Set button background color with color picker"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1600
+msgid "Featured on/off"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1601
+msgid "Image/Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1602
+msgid "Select price table image/icon option from this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1603
+msgid "Price table featured optiton enable/disbale with this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1605
+msgid ""
+"Features can be add easily in input with this shortcode \n"
+"\t    [feature_item]Text here[/feature_item][feature_item]Text "
+"here[/feature_item]"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1607
+msgid "Column Background Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1608
+msgid "Set Column Background color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1610
+msgid "Progress Bars Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1611
+msgid "Progress Bar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1612
+msgid "Progress Bar Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1613
+msgid "Enter progress bar title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1614
+msgid "Skill (in percentage)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1615
+msgid "Enter skill (in percentage) here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1616
+msgid "Progress Bar Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1617
+msgid "Set progress bar color here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1618
+msgid "Add Progress Bar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1620
+msgid "Table Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1621
+msgid "Table Content"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1622
+msgid ""
+"Fill your table content in shortcode here. (th) for table heading and (td) "
+"for table container."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1624
+msgid "View all Posts "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1626
+msgid "Editor Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1628
+msgid "Blog Search Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1629
+msgid "Blog Search"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1630
+msgid "Enable Sort By"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1631
+msgid "Sort By"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1634
+msgid "Show/Hide categories Sort by with this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1636
+msgid "Blog Categories Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1637
+msgid "Blog Categories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1638
+#: assets/frontend/translate/cs-strings.php:1773
+#: assets/frontend/translate/cs-strings-2.php:209
+msgid "Categories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1639
+msgid "Choose categories selection from this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1640
+msgid "Choose Categories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1641
+msgid "Choose categories from this dropdown."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1642
+msgid "All Categories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1643
+msgid "Selected Categories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1644
+msgid "No. of Categories Per Page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1645
+msgid "Add number of categories for show categories on page."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1646
+msgid "More Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1647
+msgid "Add more link here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1648
+msgid "More"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1649
+msgid "More Link On/OFF"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1650
+msgid "Choose more link On/OFF here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1665
+msgid "Read More..."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1667
+msgid "Custom Code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1668
+msgid "Add a custom menu to your sidebar."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1669
+msgid "CS: Custom Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1670
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1672
+msgid "Enter your element title here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1673
+msgid "Select Menu:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1674
+msgid " Single Banner"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1675
+msgid "Random Banners"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1676
+msgid "Banner View "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1677
+msgid "Select Banner View "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1679
+msgid "Number of Banners"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1680
+msgid "Please Number of Banners here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1681
+msgid "Banner Code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1682
+msgid "Please Banner Code here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1684
+msgid "Set border for widget yes/no here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1686
+msgid "Add number of excerpt words here for display on blog widget."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1688
+msgid "Please enter Banner Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1689
+msgid "Banner Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1690
+msgid "Please Select  Banner Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1691
+msgid "Banner Type"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1692
+msgid "Please enter  Banner Type"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1693
+msgid "Top Banner"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1694
+msgid "Bottom Banner"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1695
+msgid "Sidebar Banner"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1696
+msgid "Vertical Banner"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1698
+msgid "Code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1699
+msgid "Ad sense Code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1700
+msgid "Please enter Banner Ad sense Code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1701
+msgid "Please Select Banner Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1702
+msgid "Target"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1703
+msgid "Please select Banner Link Target"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1704
+msgid "Self"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1705
+msgid "Blank"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1706
+msgid "Added Banners"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1710
+msgid "Clicks"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1711
+msgid "Shortcode"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1713
+#: assets/frontend/translate/cs-strings-2.php:233
+#: assets/frontend/translate/cs-strings-3.php:19
+#: assets/frontend/translate/cs-strings-3.php:26
+msgid "URL"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1714
+msgid "Enter Url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1718
+msgid "Excerpt (max 10 words)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1720
+msgid "View all link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1721
+#: assets/frontend/translate/cs-strings.php:1905
+msgid "Please enter text for icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1723
+msgid "Social Icon Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1724
+msgid "Choose Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1725
+msgid "Choose Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1726
+msgid "Enter image Url here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1729
+msgid "Select counter view"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1730
+#: assets/frontend/translate/cs-strings-3.php:73
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1731
+#: assets/frontend/translate/cs-strings-3.php:71
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1732
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1733
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1734
+msgid "Search by Keyword"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1735
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1736
+msgid "showing search results for"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1737
+msgid "Suggestions"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1738
+#: assets/frontend/translate/cs-strings.php:1923
+msgid "Make sure all words are spelled correctly"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1739
+#: assets/frontend/translate/cs-strings.php:1924
+msgid "Wildcard searches (using the asterisk *) are not supported"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1740
+#: assets/frontend/translate/cs-strings.php:1925
+msgid "Try more general keywords, especially if you are attempting a name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1741
+msgid "404"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1742
+msgid "ERROR page not found"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1743
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1744
+msgid "Enter your keyword"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1745
+msgid "Enter your search"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1746
+msgid "Find Videos and more...."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1747
+msgid "Search ..."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1748
+#: assets/frontend/translate/cs-strings-3.php:61
+msgid "Search"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1749
+msgid "Please set API key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1750
+msgid "subscribe successfully"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1751
+msgid "No result found."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1752
+msgid "FaceBook."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1753
+msgid "Social Links."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1754
+msgid "Twitter."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1755
+msgid "Google Plus."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1756
+msgid "Instagramme."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1757
+msgid "Latest Stories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1758
+msgid "View all Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1759
+msgid "No authors found"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1760
+msgid "FEATURED TOPICS:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1761
+msgid "Comments"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1762
+msgid "Comments are off for this article"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1763
+msgid "Most Relevent Links"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1764
+msgid "By"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1765
+#: assets/frontend/translate/cs-strings-3.php:32
+msgid "Next"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1766
+#: assets/frontend/translate/cs-strings-3.php:33
+msgid "Previous"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1767
+msgid "Tags "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1768
+msgid "Share"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1769
+msgid "Follow:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1770
+msgid "You May Also Like"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1772
+msgid "Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1774
+msgid "Dealer Types"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1775
+msgid "Inventories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1776
+msgid "Inventory types"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1777
+msgid "Load from IcoMoon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1778
+msgid "Ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1779
+msgid "DON'T MISS"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1780
+msgid "Related Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1781
+#, php-format
+msgid "Edit \"%s\""
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1782
+#: assets/frontend/translate/cs-strings-3.php:59
+msgid "Primary Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1783
+msgid "Social Links Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1784
+msgid "This widget will be displayed on right/left side of the page."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1785
+msgid "This widget will be displayed on right side of the page."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1786
+msgid "Footer "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1787
+msgid "Widgets "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1788
+#, php-format
+msgid "Search Results : %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1790
+msgid "Follow me"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1791
+msgid "Archives"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1792
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1793
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1794
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1795
+msgid "Tags"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1796
+msgid "Category"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1797
+msgid "Home"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1798
+msgid "Current Page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1799
+msgid "CS Theme Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1800
+msgid "Previous page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1801
+msgid "Next page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1802
+msgid "Previous Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1803
+msgid "Next Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1804
+msgid "Pages"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1805
+msgid "Page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1806
+msgid "Comments are closed."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1807
+#: assets/frontend/translate/cs-strings-2.php:200
+msgid "Reply"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1808
+msgid "Full Width"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1809
+msgid "Sidebar Right"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1810
+msgid "Sidebar Left"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1811
+msgid "Small Left Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1812
+msgid "Small Right Sidebar"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1813
+msgid "Small Left and Large Right Sidebars"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1814
+msgid "Large Left and Small Right Sidebars"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1815
+msgid "Both Left Sidebars"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1816
+msgid "Both Right Sidebars"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1817
+msgid "Delete image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1818
+msgid "Edit Item"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1819
+#: assets/frontend/translate/cs-strings.php:1855
+#: assets/frontend/translate/cs-strings-2.php:239
+#: assets/frontend/translate/cs-strings-3.php:87
+msgid "Description"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1820
+#: assets/frontend/translate/cs-strings-2.php:106
+msgid "Update"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1821
+msgid "Delete"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1822
+msgid "Select Attribute"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1823
+msgid "CS: Twitter Widget"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1824
+msgid "Twitter Widget."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1825
+msgid "User Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1826
+msgid "Num of Tweets"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1827
+msgid "CS : Flickr Gallery"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1828
+msgid "Type a user name to show photos in widget"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1829
+msgid "Flickr username"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1830
+msgid "Enter your Flicker Username here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1831
+msgid "Number of Photos"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1832
+msgid "Api key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1833
+msgid "Error:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1834
+msgid "Please enter flickr API key."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1835
+msgid "CS: Mail Chimp"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1836
+msgid "Mail Chimp Newsletter Widget"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1837
+msgid "Enter discription here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1838
+msgid "Social Icon On/Off."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1839
+msgid "CS : Recent Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1840
+msgid "Post Thumbnail Display"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1841
+msgid "Recent Posts from category."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1842
+msgid "Choose Post"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1843
+msgid "CS: News Reviews"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1844
+msgid "News Reviews for all website/any category/any post."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1845
+msgid "previous artical"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1846
+msgid "Next artical"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1847
+msgid "Please select.."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1848
+msgid "Choose Category"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1851
+msgid "CS : Contact Info"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1852
+msgid "A widget for displaying Contact info"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1859
+msgid "Show Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1860
+msgid "CS : Posts Views"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1861
+msgid "Posts view from category."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1862
+msgid "CS : Video Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1863
+msgid "Video Posts from category."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1864
+msgid "CS : Popular Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1865
+msgid "Populay Posts by filter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1867
+msgid "Count the words length not a characters"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1869
+msgid "CS : Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1870
+msgid "Arbitrary text or Shortcode"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1871
+msgid "CS : Facebook"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1872
+msgid "Facebook widget like box total customized with theme."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1874
+#: assets/frontend/translate/cs-strings.php:1875
+msgid "Page Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1878
+msgid "Like Box Height"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1879
+msgid "Hide Cover"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1880
+msgid "Show Faces"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1881
+msgid "Show Post"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1882
+msgid "Hide Cta"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1883
+msgid "Small Header"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1884
+msgid "Adapt Width"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1885
+msgid "CS : Multiple Categories Posts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1886
+msgid "Recent Posts from Multiple Categories with Tabs Style."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1887
+msgid "Choose Categories."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1888
+msgid "Number of Posts To Display"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1892
+msgid "Set Banners option in widget."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1893
+msgid "CS: Ads"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1894
+msgid "CS: Due Date Calculator"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1895
+msgid "Add Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1896
+msgid "Select Image for Ads ."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1897
+msgid "Image Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1900
+msgid "Please wait..."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1901
+msgid "Successfully loaded icons"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1902
+msgid "Error: Try Again?"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1903
+msgid "Load from IcoMoon selection.json"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1906
+msgid "Icon Path"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1907
+msgid "Choose Icon Path"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1909
+msgid "Choose icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1910
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1911
+#: assets/frontend/translate/cs-strings-3.php:63
+msgid "Edit"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1912
+#, php-format
+msgid "You may use these HTML tags and attributes: %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1913
+msgid "Comment"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1914
+msgid "logged in"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1915
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1916
+msgid "No Pages Were Found Containing \"your added text\""
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1917
+msgid "Ready to publish your first post? Get started here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1918
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1919
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1920
+msgid "You must be to post a comment."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1921
+#: assets/frontend/translate/cs-strings.php:1926
+msgid "Log out"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1922
+msgid "Suggestions:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1927
+msgid "Log out of this account"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1928
+msgid "Logged in as"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1929
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1930
+msgid "First & Last Name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1931
+msgid "full name"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1932
+#: assets/frontend/translate/cs-strings.php:1938
+#: assets/frontend/translate/cs-strings.php:1942
+msgid "Website"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1933
+msgid "Message"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1935
+msgid "NAME *"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1936
+msgid "Phone *"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1937
+msgid "00 123 456"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1939
+msgid "https://www.systeminfo.com"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1940
+msgid "info@example.com"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1941
+msgid "your comment here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1943
+msgid "Text here.."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1944
+msgid "EMAIL *"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1945
+msgid "Leave us a comment"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1946
+msgid "Cancel reply"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1947
+msgid "Post your Comments"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1948
+msgid "Leave a Comments"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1949
+msgid ""
+"I am interested in a price quote on this vehicle. Please contact me at your "
+"earliest convenience with your best price for this vehicle."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1950
+msgid "Add Gallery"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1951
+msgid "Widget Setting Export"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1952
+msgid "Select All"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1953
+msgid "Un-Select All"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1954
+msgid "Generate Widget Settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1955
+msgid "Clear Current Widgets Before Import"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1956
+msgid "All active widgets will be moved to inactive"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1957
+msgid "Put File URL that contains widget settings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1958
+msgid "Widgets Imported Successfully."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1959
+msgid "Widgets data not Imported."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1960
+msgid "Read More"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1961
+msgid "comment"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1962
+msgid "comments"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1963
+#: assets/frontend/translate/cs-strings-3.php:56
+msgid "Written by "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1964
+msgid "No blog post found."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1965
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1967
+msgid "Written by"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1969
+msgid "Post Comments"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1970
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1972
+msgid "CS : Social Info"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1973
+msgid "Enter Social info here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1974
+msgid "Facebook Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1975
+msgid "Enter facebook url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1976
+msgid "Twitter Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1977
+msgid "Enter twitter url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1978
+msgid "Google Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1979
+msgid "Enter google url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1980
+msgid "Linkedin Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1981
+msgid "Enter linkedin url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1982
+msgid "Vimeo Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1983
+msgid "Enter vimeo url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1984
+msgid "Youtube Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1985
+msgid "Enter youtube url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1986
+msgid "Rss Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1987
+msgid "Enter Rss url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1989
+msgid "CS : Social media"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1990
+msgid "Enter Social media here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1991
+msgid "Facebook Page Url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1992
+msgid "Enter facebook page url here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1993
+msgid "Twitter user"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1994
+msgid "Enter twitter user here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1995
+msgid "Google username/id"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1996
+msgid "Enter google user or ID  here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1997
+msgid "Twitter followers"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1998
+msgid "G+ Followers"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:1999
+msgid "Facebook Fans"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2001
+msgid "Category Icon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2002
+msgid "add category icon here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2003
+msgid "Category Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2004
+msgid "Choose category color here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2006
+msgid "CS: Categories"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2007
+msgid "A list or dropdown of categories."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2008
+msgid "Select Category"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2009
+msgid "Display as dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2010
+msgid "Show post counts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2012
+msgid "Choose categories widget views here."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2013
+msgid "View1"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2014
+msgid "View2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2015
+msgid "Hierarchy"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2016
+msgid "View 1"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2017
+msgid "View 2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2018
+msgid "View 3"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2019
+msgid "View 4"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2020
+msgid "View 5"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2021
+msgid "View 6"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2022
+msgid "View 7"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2023
+msgid "View 8"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2024
+msgid "View 9"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2025
+msgid "View 10"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2027
+msgid "Select background color for view"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2028
+msgid "Filters"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2029
+msgid "View All"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2033
+msgid "CS : Weather"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2034
+msgid "Show the weather from a location you specify."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2035
+msgid "City"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2036
+msgid "Enter weather city here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2037
+msgid "Country"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2038
+msgid "Enter weather country here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2039
+msgid "Scale"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2040
+msgid "Choose weather scale here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2041
+msgid "Centigrade"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2042
+msgid "Fahrenhite"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2043
+msgid "Number of Days"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2044
+msgid "Choose weather number of days here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2045
+msgid "Image color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2046
+msgid "Select the image color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2047
+msgid "Text color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2050
+msgid ""
+"Enter the first day of your last period and find out when your baby is due."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2051
+msgid "Usual number of days in your cycle:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2052
+msgid "Calculate my due date"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2053
+#, php-format
+msgid ""
+"Here are the results based on the information you provided:<br /><br />You "
+"next most fertile period is <strong>%1$s to %2$s</strong>.<br ><br />If you "
+"conceive within this timeframe, your estimated due date will be <strong>"
+"%3$s</strong>"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2054
+msgid "Calculate again!"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2056
+msgid "View more..."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2057
+msgid "View less"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2061
+msgid "Add Faq Title"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2065
+msgid "Choose styles for promo box."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2070
+msgid "Choose views for testimonial."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2074
+msgid "Advance V1"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2077
+msgid "Map Custom Style"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2078
+#, php-format
+msgid "Add Map Custom Style code. You can find all styles from here %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2079
+msgid "Most Popular"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2080
+msgid "Button 1 Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2081
+msgid "Enter Button 1 Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2082
+msgid "Button 1 Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2083
+msgid "Enter Button 1 Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2084
+msgid "Button 2 Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2085
+msgid "Enter Button 2 Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2086
+msgid "Button 2 Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2087
+msgid "Enter Button 2 Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2088
+msgid "Compare Button Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2089
+msgid "Enter Compare Button Text"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2090
+msgid "Compare Button Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2091
+msgid "Enter Compare Button Link"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2094
+msgid "View Profile"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings.php:2095
+msgid "Please Select a Page"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:21
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:22
+msgid "Auto Update"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:23
+msgid "Auto Update Theme"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:24
+msgid "Automatic Upgrade"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:25
+msgid "Marketplace Username"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:26
+msgid "Enter your Marketplace Username."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:27
+msgid "Secret API Key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:28
+msgid "Enter your Secret API key."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:29
+msgid "Skip Theme Backup"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:30
+msgid "Do you want to skip theme backup?"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:31
+msgid "Auto"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:32
+msgid "Please add client logo first."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:33
+msgid "Please fill all mandatory fields."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:34
+msgid "Please fill sidebar name field."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:47
+msgid "Minimum PHP Version"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:48
+msgid "To run this theme properly, mentioned minium PHP version is required."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:49
+msgid "Available"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:50
+msgid ""
+"Sets max size of post data allowed. This setting also affects file upload."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:51
+msgid "The maximum size of a file that can be uploaded."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:52
+msgid ""
+"This sets the maximum amount of memory that a script is allowed to allocate."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:53
+msgid "To download import data this option is required."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:54
+msgid "should be enabled in"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:56
+msgid ""
+"This plugin is required as this handles the core functionality of the theme."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:58
+msgid ""
+"This plugin is required as this handles all functionality related to real "
+"estate manager etc."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:60
+msgid "This plugin is required to import Revolution sliders from demo data."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:67
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:78
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:116
+msgid "Updating Plugin"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:117
+msgid "An error occurred while installing"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:128
+msgid "Installing Plugin"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:129
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:135
+msgid "To Install"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:136
+msgid "Update Available"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:137
+msgid "To Activate"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:139
+msgid "The following plugins were activated successfully:"
+msgstr ""
+
+#. Name of the theme
+#: assets/frontend/translate/cs-strings-2.php:141
+msgid "Homevillas Real Estate"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:142
+msgid "Home v2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:143
+msgid "Home v3"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:144
+msgid "Home v4"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:145
+msgid "Home v5"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:146
+msgid "Home v6"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:147
+msgid "Home v7"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:148
+msgid "Home v8"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:149
+msgid "Home v9"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:150
+msgid "Home v10"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:151
+msgid "Home v11"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:152
+msgid "Home v12"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:153
+msgid "Home v13"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:154
+msgid "Home v14"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:155
+msgid "Home v15"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:156
+msgid "Home v16"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:157
+msgid "RTL Demo"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:163
+msgid "Category:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:164
+msgid "Categories:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:165
+msgid "Tag:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:166
+msgid "Tags:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:168
+#, php-format
+msgid "based on %s customer rating"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:169
+#, php-format
+msgid "based on %s customer ratings"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:170
+msgid "Reviews"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:185
+msgid "Product Description"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:186
+msgid "Additional Information"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:187
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:190
+msgid "Fancy Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:191
+msgid "Menu List"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:192
+msgid "No menus have been created yet."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:193
+msgid "Create some"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:198
+msgid "Submit"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:201
+msgid "facebook"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:202
+msgid "twitter"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:203
+msgid "google+"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:204
+msgid "tumbler"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:205
+msgid "dribble"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:206
+msgid "stumbleupon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:210
+msgid "-- Select Categories --"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:212
+msgid "Mega Menu View"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:214
+msgid "Active Mega Menu"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:215
+msgid "on"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:220
+msgid "eng"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:221
+msgid "France"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:222
+msgid "Germany"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:223
+msgid "Italy"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:224
+msgid "Iceland"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:225
+msgid "USD"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:226
+msgid "UAE"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:227
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:228
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:229
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:230
+msgid "Move up"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:231
+msgid "Move down"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:232
+msgid "Edit Menu Item"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:234
+msgid "Navigation Label"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:235
+msgid "Title Attribute"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:236
+msgid "Open link in a new tab"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:237
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:238
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:240
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:244
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:245
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:246
+#: assets/frontend/translate/cs-strings-3.php:52
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:247
+msgid "Leave a Comment"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:248
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-2.php:249
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:21
+msgid "Successfully installed"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:22
+msgid ""
+"Sorry unable to upgrade theme. Contact Theme Author and repot this issue."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:23
+msgid "Clients"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:24
+msgid "Enable clients in footer"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:28
+msgid "Added Clients"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:29
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:30
+msgid "Placeholder"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:31
+msgid "N/A"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:34
+msgid "Prev"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:35
+msgid "Product"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:37
+msgid "Quantity"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:38
+#: assets/frontend/translate/cs-strings-3.php:50
+msgid "Total"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:39
+msgid "Remove this item"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:40
+msgid "Available on backorder"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:41
+msgid "Coupon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:42
+msgid "Coupon code"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:43
+msgid "Update Cart"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:44
+msgid "Apply Coupon"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:45
+msgid "calculated_shipping"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:46
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:47
+msgid "Cart Totals"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:48
+msgid "Subtotal"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:49
+msgid "Shipping"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:51
+#: assets/frontend/translate/cs-strings-3.php:55
+msgid "Pages:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:53
+msgid "Previous Article"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:54
+msgid "Next Article "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:57
+msgid "Share "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:58
+msgid "You May also Like this"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:60
+msgid "About info Image"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:62
+msgid "SKU:"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:64
+#, php-format
+msgid "%d seconds ago"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:65
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:66
+msgid "Get started here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:67
+msgid "Continue reading"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:68
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:69
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:70
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:74
+msgid "Font Weight"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:75
+msgid "Select font weight for heading here"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:76
+msgid "Select font weight"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:77
+msgid "By "
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:82
+msgid "NEWSLETTER OPTIONS"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:83
+msgid "API Key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:84
+msgid "Enter the Mail Chimp Api key"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:89
+msgid "Select newsletter style from this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:92
+msgid "Follow Us"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:106
+msgid "Gallery Options"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:108
+msgid ""
+"Use this option if u want to use margin left for this element  (without px)."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:110
+msgid ""
+"Use this option if u want to use margin right for this element (without px)."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:111
+msgid "Image URL"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:112
+msgid "Add image url"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:113
+msgid "Image Size"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:114
+msgid "Select image size from this dropdown"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:132
+msgid "Footer Logo"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:133
+msgid "Upload your custom footer logo in .png .jpg .gif formats only."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:134
+msgid "Element Title fonts"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:135
+msgid "fonts Attr"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:136
+#: assets/frontend/translate/cs-strings-3.php:138
+msgid "Classic v2"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:137
+msgid "Counter Title Color"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:141
+msgid "Show Icons"
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:151
+msgid ""
+"Insert Twitter Consumer Key here. When you create your Twitter App, you will "
+"get this key."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:153
+msgid ""
+"Insert Twitter Consumer secret here. When you create your Twitter App, you "
+"will get this key."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:155
+msgid ""
+"Insert Twitter Access Token for permissions. When you create your Twitter "
+"App, you will get this Token."
+msgstr ""
+
+#: assets/frontend/translate/cs-strings-3.php:157
+msgid ""
+"Insert Twitter Access Token Secret here. When you create your Twitter App, "
+"you will get this Token."
+msgstr ""
+
+#: include/backend/cs-activation-plugins/cs-plugin-activation.php:354
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Description of the theme
+msgid ""
+"Homevillas Real Estate is complete solution for property WordPress theme, "
+"not only the front end but back end of theme provide complete property "
+"management system where user can set a complete online property marketplace "
+"for users and members, offering them their separate profile page, dashboards "
+"and accepting commission directly via default payment gateways of "
+"woocommerce."
+msgstr ""
+
+#. URI of the theme
+msgid "http://www.chimpstudio.co.uk/"
+msgstr ""
+
+#. Author of the theme
+msgid "Chimp Studio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/chimpstudio"
+msgstr ""

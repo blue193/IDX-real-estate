@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>draw_on</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(-160.000000, -759.000000)">
+            <g id="draw_on" transform="translate(160.000000, 759.000000)">
+                <rect id="Rectangle" fill="#ED217C" x="0" y="0" width="50" height="50"></rect>
+                <path d="M17.8936982,28.3349535 C15.2729904,28.3349535 13.1574793,30.5679767 13.1574793,33.3342591 C13.1574793,35.5172893 11.3261413,36.6671296 10,36.6671296 C11.4524405,38.7001805 13.9310617,40 16.3149586,40 C19.8039732,40 22.6299171,37.017081 22.6299171,33.3342591 C22.6299171,30.5679767 20.514406,28.3349535 17.8936982,28.3349535 L17.8936982,28.3349535 Z M39.5382187,12.7204555 L37.4227075,10.4874323 C36.8069991,9.83752257 35.8123931,9.83752257 35.1966846,10.4874323 L21.0511775,25.4186918 L25.3927115,30.0013887 L39.5382187,15.0701291 C40.1539271,14.4202194 40.1539271,13.3703652 39.5382187,12.7204555 L39.5382187,12.7204555 Z" id="Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

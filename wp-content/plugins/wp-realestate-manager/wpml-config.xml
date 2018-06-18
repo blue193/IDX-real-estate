@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">properties</custom-type>
+ 		<custom-type translate="1">property-type</custom-type>
+		<custom-type translate="1">wp_rem_claims</custom-type>
+		<custom-type translate="1">property-alert</custom-type>
+		<custom-type translate="1">jh-templates</custom-type>
+		<custom-type translate="1">notifications</custom-type>
+		<custom-type translate="0">orders_inquiries</custom-type>
+		<custom-type translate="1">wp-rem-trans</custom-type>
+		<custom-type translate="0">package-orders</custom-type>
+		<custom-type translate="1">wp_rem_reviews</custom-type>
+		<custom-type translate="1">packages</custom-type>
+		<custom-type translate="1">wp-rem-pt</custom-type>
+		<custom-type translate="1">members</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">property_location</taxonomy>
+		<taxonomy translate="1">property-category</taxonomy>
+	</taxonomies>
+</wpml-config>

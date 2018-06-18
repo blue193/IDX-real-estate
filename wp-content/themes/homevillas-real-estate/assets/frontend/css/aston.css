@@ -1,0 +1,12 @@
+/*Faqa Modern Style Start*/
+.faqs.modern{width: 100%; margin-bottom: 30px;}
+.faqs.modern .panel-group .panel{ margin: 0 0 10px 0;}
+.faqs.modern .panel-group .panel-heading a i{ vertical-align: middle; }
+.faqs.modern .panel-group .panel .panel-heading{position: relative;}
+.faqs.modern .faq.panel-group .panel-heading a.collapsed{color: #4c4c4c !important;}
+.faqs.modern .faq.panel-group .panel-heading a:after{content: ""; position: absolute; left: 0px; bottom: -2px; width: 100%; height: 1px; border-bottom: 1px solid #e5e5e5;}
+.faqs.modern .panel-group .panel-heading a{ background-color: #fff; padding: 11px 26px 11px 15px; font-family: inherit; border:1px solid #f2f2f2; border-radius: 3px; line-height: 1; font-size: 15px; font-weight: 400;}
+.faqs.modern .faq.panel-group .panel-heading a:before{content: "\e9bf"; font-size: 16px; font-family: 'icomoon'; right: 5px; top: 12px; color: #838383;}
+.faqs.modern .faq.panel-group .panel-heading a.collapsed:before{content: "\e9c1"; color: #cdcdcd;}
+.faqs.modern .faq.panel-group .panel .panel-collapse .panel-body{padding: 25px 20px 15px 20px !important; background-color: #f6f6f6; color: #666; font-size: 14px; line-height: 22px; font-weight: 400; border-radius: 0 4px 4px 0px;}
+/*Faqa Modern Style End*/

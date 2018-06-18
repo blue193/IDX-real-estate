@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html-aliases/1on1realtors
+permissions:
+  - object: /var/www/html-aliases/1on1realtors
+    pattern: "**"
+    owner: 1on1realtors
+    group: www
+    mode: 444
+    type:
+      - file
+  - object: /var/www/html-aliases/1on1realtors
+    pattern: "**"
+    owner: 1on1realtors
+    group: www
+    mode: 555
+    type:
+      - directory

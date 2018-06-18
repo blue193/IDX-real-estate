@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'smilies';
+  src:  url('fonts/smilies.eot?z723b5');
+  src:  url('fonts/smilies.eot?z723b5#iefix') format('embedded-opentype'),
+    url('fonts/smilies.ttf?z723b5') format('truetype'),
+    url('fonts/smilies.woff?z723b5') format('woff'),
+    url('fonts/smilies.svg?z723b5#smilies') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icom-"], [class*=" icom-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'smilies' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icom-happy:before {
+  content: "\e9df";
+}
+.icom-happy2:before {
+  content: "\e9e0";
+}
+.icom-smile:before {
+  content: "\e9e1";
+}
+.icom-smile2:before {
+  content: "\e9e2";
+}
+.icom-tongue:before {
+  content: "\e9e3";
+}
+.icom-tongue2:before {
+  content: "\e9e4";
+}
+.icom-sad:before {
+  content: "\e9e5";
+}
+.icom-sad2:before {
+  content: "\e9e6";
+}
+.icom-wink:before {
+  content: "\e9e7";
+}
+.icom-wink2:before {
+  content: "\e9e8";
+}
+.icom-grin:before {
+  content: "\e9e9";
+}
+.icom-grin2:before {
+  content: "\e9ea";
+}
+.icom-cool:before {
+  content: "\e9eb";
+}
+.icom-cool2:before {
+  content: "\e9ec";
+}
+.icom-angry:before {
+  content: "\e9ed";
+}
+.icom-angry2:before {
+  content: "\e9ee";
+}
+.icom-evil:before {
+  content: "\e9ef";
+}
+.icom-evil2:before {
+  content: "\e9f0";
+}
+.icom-shocked:before {
+  content: "\e9f1";
+}
+.icom-shocked2:before {
+  content: "\e9f2";
+}
+.icom-baffled:before {
+  content: "\e9f3";
+}
+.icom-baffled2:before {
+  content: "\e9f4";
+}
+.icom-confused:before {
+  content: "\e9f5";
+}
+.icom-confused2:before {
+  content: "\e9f6";
+}
+.icom-neutral:before {
+  content: "\e9f7";
+}
+.icom-neutral2:before {
+  content: "\e9f8";
+}
+.icom-hipster:before {
+  content: "\e9f9";
+}
+.icom-hipster2:before {
+  content: "\e9fa";
+}
+.icom-wondering:before {
+  content: "\e9fb";
+}
+.icom-wondering2:before {
+  content: "\e9fc";
+}
+.icom-sleepy:before {
+  content: "\e9fd";
+}
+.icom-sleepy2:before {
+  content: "\e9fe";
+}
+.icom-frustrated:before {
+  content: "\e9ff";
+}
+.icom-frustrated2:before {
+  content: "\ea00";
+}
+.icom-crying:before {
+  content: "\ea01";
+}
+.icom-crying2:before {
+  content: "\ea02";
+}
+

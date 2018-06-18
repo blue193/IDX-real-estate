@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'MyCustomIcons';
+  src:  url('fonts/MyCustomIcons.eot?nh994d');
+  src:  url('fonts/MyCustomIcons.eot?nh994d#iefix') format('embedded-opentype'),
+    url('fonts/MyCustomIcons.ttf?nh994d') format('truetype'),
+    url('fonts/MyCustomIcons.woff?nh994d') format('woff'),
+    url('fonts/MyCustomIcons.svg?nh994d#MyCustomIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'MyCustomIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-graduationicon-:before {
+  content: "\e900";
+}
+.icon-briefcaseicon-:before {
+  content: "\e901";
+}
+.icon-presentationicon-:before {
+  content: "\e902";
+}
+.icon-listicon-:before {
+  content: "\e903";
+}
+.icon-growthicon-:before {
+  content: "\e904";
+}
+.icon-avataricon-:before {
+  content: "\e905";
+}
+.icon-responsiveicon-:before {
+  content: "\e906";
+}
+.icon-strengthicon-:before {
+  content: "\e907";
+}
+.icon-ideaicon-:before {
+  content: "\e908";
+}
+.icon-codingicon-:before {
+  content: "\e909";
+}
+.icon-creativityicon-:before {
+  content: "\e90a";
+}
+.icon-handshakeicon-:before {
+  content: "\e90b";
+}
+

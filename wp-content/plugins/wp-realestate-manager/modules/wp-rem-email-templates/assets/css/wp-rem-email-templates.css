@@ -1,0 +1,107 @@
+.jh-email-helper-variables{
+    display:inline-block;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.jh-email-helper-variables h2,
+.jh-email-helper-variables h4,
+.jh-email-helper-variables p{
+    padding:0 !important;
+	margin:0 0 10px !important;
+}
+
+.jh-email-helper-variables ul{
+	padding:0 !important;
+	margin:0 0 15px !important;
+}
+
+.jh-email-helper-variables ul {
+    display: inline-block;
+    width: 100%;
+    background: #f7f7f7;
+}
+.jh-var-list a.add-email-var {
+    padding: 10px 10px;
+    display: block;
+}
+.jh-var-list a:hover{
+    background: #f1f1f1;
+}
+.jh-email-helper-variables ul li{
+    float:left;
+    margin:0;
+    cursor:pointer;
+}
+
+.jh-email-helper-variables .jh-form-elements{
+    float:left;
+    width:100%;
+    margin-bottom:0px;
+}
+
+.jh-email-helper-variables .jh-form-elements .jh-label{
+    float:left;
+    width:20%;
+}
+
+.jh-email-helper-variables .jh-form-elements .jh-field{
+    float:left;
+    width:80%;
+}
+
+.jh-email-helper-variables .jh-form-elements .jh-field input[type="text"]{
+    float:left;
+    width:250px;
+    height:30px;
+}
+.jh-email-helper-variables .email-template-fields .jh-field.from, .jh-email-helper-variables .email-template-fields .jh-field.last, .jh-email-helper-variables .email-template-fields .jh-field{
+    width: auto;
+}
+.jh-email-helper-variables .email-template-fields .jh-field.from{
+    margin-left: 20%;
+}
+
+.post-type-jh-templates .subsubsub,
+.post-type-jh-templates #posts-filter .tablenav .alignleft.actions label.screen-reader-text,
+.post-type-jh-templates #posts-filter .tablenav .alignleft.actions #filter-by-date,
+.post-type-jh-templates #posts-filter .tablenav .actions.bulkactions,
+.post-type-jh-templates #posts-filter .tablenav .view-switch,
+.post-type-jh-templates #posts-filter .search-box,
+.post-type-jh-templates #submitdiv .handlediv,
+.post-type-jh-templates #submitdiv h2,
+.post-type-jh-templates #submitdiv #minor-publishing-actions,
+.post-type-jh-templates #submitdiv #misc-publishing-actions,
+.post-type-jh-templates #submitdiv #delete-action,
+.post-type-jh-templates #email_template_groupdiv,
+.post-type-jh-templates input#title,
+.post-type-jh-templates .notice,
+.post-type-jh-templates .page-title-action {
+    display: none !important;
+}
+
+.jh-email-helper-variables .jh-form-elements .email-template-fields .jh-field{
+	padding: 10px 0px 0px 0px;
+}
+.jh-email-helper-variables .jh-form-elements .email-template-fields .jh-field.subject input{
+	width: 60%;
+}
+.jh-email-helper-variables .jh-form-elements .email-template-fields .jh-field input{
+	width: 100%;
+}
+.jh-email-helper-variables .jh-form-elements .email-template-fields .jh-field.subject{
+	width: 100%;
+	margin-left: 0px;
+}
+.jh-email-helper-variables .jh-form-elements .email-template-fields .jh-field{
+	width: 29.3%;
+	float: left;
+}
+.jh-email-helper-variables .jh-form-elements .email-template-fields .jh-field.last{
+	padding-left: 20px;
+}
+ 
+.email-template_options .jh-form-elements .jh-label {
+  width: 100%;
+  margin-bottom: 10px;
+}

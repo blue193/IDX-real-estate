@@ -1,0 +1,76 @@
+/* Text Color */
+.text-color, .listing-sorting-holder .user-location-filters li a:hover, .listing-sorting-holder .user-location-filters li a.active, .listing-grid .text-holder .listing-price, .listing-grid .like-btn a:hover,
+.listing-grid .post-title a:hover, .listing-medium .post-title a:hover, .listing-medium .like-btn a:hover, .wp-rem-filters .search-options .reset-results, .sub-header .breadcrumbs ul li.active a, .sub-header .breadcrumbs ul li.active:after,
+.sub-header .breadcrumbs ul li:hover a, .sub-header .breadcrumbs ul li:hover:after, .field-select-holder ul li ul.dropdown-select li a:hover, .field-select-holder ul li a span, .nav-list-detail ul li:hover a, .main-header .social-media li a:hover,
+.blog .text-holder .author-info span, .blog .post-title h2:hover a, .blog .text-holder .post-options li:hover a, .blog .post-title h3:hover a, .blog .post-title h4:hover a,.widget.widget-latest-post ul li .text-holder h6 a:hover, .widget.widget-archives ul li:hover a,
+.widget.widget-property-types ul li:hover a, blockquote p i, blockquote p:before, .tags-list ul li:hover a, .blog.blog-grid .icons-list span a:hover,
+.blog.blog-grid .post-title h5 a:hover,
+.sub-header  ul.breadcrumbs li:hover:after, .sub-header  ul.breadcrumbs li:hover a, .sub-header  ul.breadcrumbs li:hover, .sub-header ul.breadcrumbs li.active a, .sub-header ul.breadcrumbs li.active:after, .property-featured-widget .text-holder h6 a:hover, .member-medium .text-holder .post-title h4 a:hover, .member-medium .member-info li a:hover {
+	color: #d64521 !important;
+}
+/* Background Color */
+.bgcolor, .top-map-search-inner .chosen-results li.highlighted, .top-map-search-inner input[type="submit"], .real-estate-listing .caption-inner span.rent-label, .listing-sorting-holder .user-location-filters li.highlighted,
+.pagination li a:hover, .pagination li.active a, .main-header .top-header .listing-btn:hover, .detail-nav ul li:hover a, .widget.widget-tag-cloud a:hover, .member-medium .social-media a:hover, .member-detail .member-info .social-media a:hover, .member-medium .profile-btn {
+	background: #d64521 !important;
+}
+/* Border Color */
+.br-color{
+ border-color: #d64521 !important;
+}
+body, .main-section p, .main-content-body p {
+	font: 400 14px/24px 'Roboto', sans-serif; 
+	letter-spacing: 0px;
+	text-transform: none;
+	color: #555;
+}
+h1, h1 a {
+	font: 700 30px/36px 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #000000;
+}
+h2, h2 a {
+	font: 700 24px/30px 'Montserrat', sans-serif;
+	letter-spacing:  1px ;
+	text-transform:capitalize;
+	color: #000000;
+}
+h3, h3 a {
+	font: 700 20px/26px 'Montserrat', sans-serif;
+	letter-spacing:  1px;
+	text-transform: capitalize;
+	color: #000000;
+}
+h4, h4 a {
+	font: 700 18px/24px 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #000000;
+}
+h5, h5 a {
+	font: 700 16px/22px 'Montserrat', sans-serif;
+	letter-spacing:  1px;
+	text-transform: capitalize;
+	color: #000000;
+}
+h6, h6 a {
+	font: 700 14px/20px 'Montserrat', sans-serif;
+	letter-spacing:  1px;
+	text-transform: capitalize;
+	color: #000000;
+}
+.page-title h1 {
+	font: 700 22px/34px 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color: #000;
+	margin: 0 0 5px 0;
+}
+.widget-title h5 {
+	font: 700 16px/20px 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	color:#000000;
+}
+
+
