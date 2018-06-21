@@ -457,17 +457,20 @@ if ( isset($wp_rem_user_status) && $wp_rem_user_status == 'active' ) {
                                                 ?>
                                                 <span class="property-price"><?php echo force_balance_tags($wp_rem_property_price); ?><small></small></span>
                                             <?php } ?>
-                                            <div class="post-time">
-                                                <small>
-                                                    <?php
-                                                    $month = get_the_date('M');
-                                                    $day = get_the_date('j');
-                                                    $year = get_the_date('Y');
-                                                    printf(wp_rem_plugin_text_srt('wp_rem_member_listed_on'), $day, $month, $year);
-                                                    ?>
-                                                </small>
-                                                <a href="<?php echo esc_url($member_link); ?>"><span><?php echo esc_html($member_title); ?></span></a>
-                                            </div>
+                                            
+                                            <!-- Blueeye : single-member -->
+
+                                            <?php
+                                            if ( isset($wp_rem_phone_number) && $wp_rem_phone_number != '' ) {
+                                                $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number);
+                                            ?>
+                                                <div class="post-category-list">
+                                                    <ul>
+                                                        <li><i class="icon-user3"></i><a href="<?php echo esc_url($member_link); ?>"><span><?php echo esc_html($member_title); ?></span></a></li>
+                                                        <li><i class="icon-mobile2"></i><a href="tel:<?php echo esc_html($wp_rem_phone_number); ?>"><?php echo esc_html($wp_rem_phone_number); ?></a> </li>
+                                                    </ul>
+                                                </div>
+                                            <?php } ?>
                                             <?php if ( isset($member_image) && $member_image != '' ) { ?>
                                                 <div class="thumb-img">
                                                     <a href="<?php echo esc_url($member_link); ?>"><img src="<?php echo esc_url($member_image); ?>"></a>
@@ -612,6 +615,7 @@ if ( isset($wp_rem_user_status) && $wp_rem_user_status == 'active' ) {
                         $wp_rem_property_is_featured = get_post_meta($property_id, 'wp_rem_property_is_featured', true);
                         $wp_rem_property_price_options = get_post_meta($property_id, 'wp_rem_property_price_options', true);
                         $wp_rem_property_type = get_post_meta($property_id, 'wp_rem_property_type', true);
+                        $wp_rem_phone_number = get_post_meta($post_id, 'wp_rem_phone_number', true);
                         // checking review in on in property type
                         $wp_rem_property_type = isset($wp_rem_property_type) ? $wp_rem_property_type : '';
                         if ( $property_type_post = get_page_by_path($wp_rem_property_type, OBJECT, 'property-type') )

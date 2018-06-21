@@ -537,6 +537,25 @@ if ($property_loop_obj->have_posts()) {
                                 </div>
 
                                 <?php
+
+                                // Blueeye: Search
+
+                                $wp_rem_phone_number = get_post_meta($wp_rem_property_member, 'wp_rem_phone_number', true);
+
+                                if ( isset($wp_rem_phone_number) && $wp_rem_phone_number != '' ) {
+
+                                    $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number);
+                                ?>
+                                <ul class="post-category-list">
+                                    <li><i class="icon-user3"></i>
+                                        <?php if ($wp_rem_property_member != '' && FALSE != get_post_status($wp_rem_property_member)) { ?>
+                                        <span><a href="<?php echo get_the_permalink($wp_rem_property_member); ?>"><?php echo get_the_title($wp_rem_property_member); ?></a></span>
+                                    <?php } ?>
+                                    </li>
+                                    <li><i class="icon-mobile2"></i> <a href="tel:<?php echo esc_html($wp_rem_phone_number); ?>"><?php echo esc_html($wp_rem_phone_number);?></a>
+                                    </li>
+                                </ul><?php
+                                }
                                 $member_image_id = get_post_meta($wp_rem_property_member, 'wp_rem_profile_image', true);
                                 $member_image = wp_get_attachment_image_src($member_image_id, 'thumbnail');
                                 if ($member_image == '' || FALSE == get_post_status($wp_rem_property_member)) {
@@ -620,6 +639,45 @@ if ($property_loop_obj->have_posts()) {
 								$prop_enquir_args = array(
                                     'enquiry_label' => 'Enquiry',
                                 );
+
+                                // Blueeye: regident
+                                $wp_rem_phone_number = get_post_meta($wp_rem_property_member, 'wp_rem_phone_number', true);
+
+                                if ( isset($wp_rem_phone_number) && $wp_rem_phone_number != '' ) {
+
+                                    $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number);
+                                ?>
+                                <div class="post-category-list regident">
+                                    <div class="member-info">
+                                        <ul class="list-regident">
+                                            <li><i class="icon-user3"></i>
+                                                <?php if ($wp_rem_property_member != '' && FALSE != get_post_status($wp_rem_property_member)) { ?>
+                                                <span><a href="<?php echo get_the_permalink($wp_rem_property_member); ?>"><?php echo get_the_title($wp_rem_property_member); ?></a></span>
+                                            <?php } ?>
+                                            </li>
+                                            <li><i class="icon-mobile2"></i> <a href="tel:<?php echo esc_html($wp_rem_phone_number); ?>"><?php echo esc_html($wp_rem_phone_number);?></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <?php
+                                    }                                
+                                    $member_image_id = get_post_meta($wp_rem_property_member, 'wp_rem_profile_image', true);
+                                    $member_image = wp_get_attachment_image_src($member_image_id, 'thumbnail');
+                                    if ($member_image == '' || FALSE == get_post_status($wp_rem_property_member)) {
+                                        $member_image[0] = esc_url(wp_rem::plugin_url() . 'assets/frontend/images/member-no-image.jpg');
+                                    }
+                                    if ($member_image != '' && get_post_status($wp_rem_property_member)) {
+                                        ?>
+                                    <div class="thumb-regident">
+                                        <figure>
+                                            <a href="<?php echo get_the_permalink($wp_rem_property_member); ?>">
+                                                <img src="<?php echo esc_url($member_image[0]); ?>" alt="" >
+                                            </a>
+                                        </figure>
+                                    </div>
+                                </div>
+                                
+                                <?php }
                                 do_action('wp_rem_enquiry_check_frontend_button', $property_id, $prop_enquir_args);
 								?>
 
