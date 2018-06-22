@@ -2880,11 +2880,12 @@ div .post-category-list .regident {
 }
 
 div .member-info {
-  width: 70%;
+  width: 78%;
   float: left;
 }
 
 div .thumb-regident {
+  float: right;
   width: 22% !important;
   overflow: hidden !important;
 }
