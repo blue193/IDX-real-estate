@@ -170,17 +170,25 @@ wp_rem_cs_inline_enqueue_script($wp_rem_cs_inline_script, 'wp-rem-custom-inline'
         <div class="container">
             <div class="row">
                 <?php
-                // load Member template
-                set_query_var('custom_query_featured', $custom_query_featured);
-                set_query_var('featured_count', $featured_count);
-                set_query_var('paging_var', $paging_var);
-                set_query_var('paging_var_perpage', $posts_per_page);
-                set_query_var('custom_query', $custom_query);
-                set_query_var('post_count', $post_count);
-                set_query_var('branches', $branches);
-                set_query_var('team_members', $team_members);
-                set_query_var('wp_rem_cs_email_counter', $wp_rem_cs_email_counter);
-                wp_rem_get_template_part('member', 'view', 'single-member');
+                // blue
+                // print_r($team_members);
+                // if ( isset($team_members) && ! empty($team_members) ) {
+                //     foreach ( $team_members as $member_data ) {
+                //                 $wp_rem_team_member_name = $member_data->user_nicename;
+                //                 echo $wp_rem_team_member_name;
+                    // load Member template
+                    set_query_var('custom_query_featured', $custom_query_featured);
+                    set_query_var('featured_count', $featured_count);
+                    set_query_var('paging_var', $paging_var);
+                    set_query_var('paging_var_perpage', $posts_per_page);
+                    set_query_var('custom_query', $custom_query);
+                    set_query_var('post_count', $post_count);
+                    set_query_var('branches', $branches);
+                    set_query_var('team_members', $team_members);
+                    set_query_var('wp_rem_cs_email_counter', $wp_rem_cs_email_counter);
+                    wp_rem_get_template_part('member', 'view', 'single-member');
+                //     }
+                // }
                 ?>
             </div>
         </div>

@@ -61,7 +61,7 @@ if (!class_exists('Wp_rem_Shortcode_Properties_Frontend')) {
 			
 			do_action('property_checks_enquire_lists_submit');
             ?> 
-            <div class="wp-rem-property-content" id="wp-rem-property-content-<?php echo esc_html($property_short_counter); ?>">
+            <div class="wp-rem-property-content" id="wp-rem-property-content-<?php echo esc_html($property_short_counter); ?>">HAHAHAHA
                 <?php
                 echo '<div class="dev-map-class-changer' . $map_change_class . '">'; // container for content area when top map on
                 $page_url = get_permalink(get_the_ID());

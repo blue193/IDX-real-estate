@@ -210,6 +210,7 @@ if ( ! class_exists('Wp_rem_Shortcode_Properties_with_Filters_Frontend') ) {
                                 <?php
                                 $count = 1;
                                 foreach ( $property_type as $type_slug ) {
+                                    
                                     if ( is_object($type_obj) ) {
                                         $type_args = $args;
                                         $type_args['meta_query'][] = array(

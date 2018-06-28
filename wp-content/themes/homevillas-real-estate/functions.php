@@ -16,8 +16,10 @@ require_once trailingslashit(get_template_directory()) . 'include/cs-helpers.php
 
 define('SCRIPTS_VER', '4.7.4');
 
-define('RECEIVED_ENQUIRY_EMAIL', 'admin@1on1realtors.com');
-define('SEND_ARRANGE_SUBMIT', 'admin@1on1realtors.com');
+// define('RECEIVED_ENQUIRY_EMAIL', 'admin@1on1realtors.com');
+// define('SEND_ARRANGE_SUBMIT', 'admin@1on1realtors.com');
+define('RECEIVED_ENQUIRY_EMAIL', 'ameeta@simplyintense.com');
+define('SEND_ARRANGE_SUBMIT', 'ameeta@simplyintense.com');
 /**
  * Sets up theme defaults and registers support for various WordPress features.     *
  * Note that this function is hooked into the after_setup_theme hook, which

@@ -72,7 +72,6 @@ if (!class_exists('wp_rem_posted_by')) {
 					$wp_rem_form_fields->wp_rem_form_select_render($wp_rem_opt_array);
 				echo '</div>';
 			echo $wp_rem_html_fields->wp_rem_closing_field(array('desc' => ''));
-
 			$wp_rem_opt_array = array(
                 'name' => wp_rem_plugin_text_srt( 'wp_rem_property_select_user' ),
                 'desc' => '',
@@ -88,12 +87,16 @@ if (!class_exists('wp_rem_posted_by')) {
                     'return' => true,
                 ),
             );
+
+            // print_r($wp_rem_opt_array);
             $wp_rem_html_fields->wp_rem_select_field($wp_rem_opt_array);
 		
 		}
 		
+		// Blue: 
 		public function wp_rem_load_all_members_callback(){
 			global $wp_rem_form_fields;
+			echo "TETETETETET";
 			
 			$selected_member = wp_rem_get_input('selected_member', '', 'STRING');
 			$wp_rem_members_list = array( '' => wp_rem_plugin_text_srt( 'wp_rem_property_select_member' ) );
@@ -118,9 +121,10 @@ if (!class_exists('wp_rem_posted_by')) {
 				'options' => $wp_rem_members_list,
 				'return' => true,
             );
+
             $html = $wp_rem_form_fields->wp_rem_form_select_render($wp_rem_opt_array);
 			$html .= '<script type="text/javascript">
-				jQuery(document).ready(function () {
+				jQuery(document).ready(function () {alert("kk");
 					chosen_selectionbox();
 				});
 			</script>';

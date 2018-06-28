@@ -737,6 +737,24 @@ if ( ! class_exists('wp_rem_enquire_arrange_button_element') ) {
                                             }
                                         }
                                         ?>
+
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">hj
+                                            <div class="field-holder"> 
+                                                <div class="check-box-remind">
+                                                    <?php
+                                                    $wp_rem_opt_array = array(
+                                                        'simple' => true,
+                                                        'cust_id' => 'arrange-send-email',
+                                                        'cust_name' => 'send_copy',
+                                                        'std' => '',
+                                                        'classes' => 'input-field',
+                                                    );
+                                                    $wp_rem_form_fields_frontend->wp_rem_form_checkbox_render($wp_rem_opt_array);
+                                                    ?>
+                                                    <label for="arrange-send-email"><?php echo wp_rem_plugin_text_srt('wp_rem_enquire_arrange_send_copy'); ?></label>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-holder viewing-request-holder input-button-loader">
                                                 <?php

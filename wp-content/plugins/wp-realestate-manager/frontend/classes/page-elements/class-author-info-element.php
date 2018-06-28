@@ -66,7 +66,8 @@ if ( ! class_exists('wp_rem_author_info_element') ) {
                             <?php } ?>
                             <ul>
                                 <?php if ( isset($wp_rem_post_loc_address_member) && $wp_rem_post_loc_address_member != '' ) { ?>
-                                    <li><i class="icon-location"></i><?php echo esc_html($wp_rem_post_loc_address_member); ?></li>
+                                    <li>
+                                        Class author info element<i class="icon-location"></i><?php echo esc_html($wp_rem_post_loc_address_member); ?></li>
                                 <?php } ?>
                                 <?php if ( isset($wp_rem_member_phone_num) && $wp_rem_member_phone_num != '' ) { ?>
                                     <li><i class="icon-phone3 "></i><?php echo esc_html($wp_rem_member_phone_num); ?></li>

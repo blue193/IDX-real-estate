@@ -4,6 +4,7 @@
  *
  */
 global $wp_rem_post_property_types, $wp_rem_plugin_options;
+
 $default_property_no_custom_fields = isset($wp_rem_plugin_options['wp_rem_property_no_custom_fields']) ? $wp_rem_plugin_options['wp_rem_property_no_custom_fields'] : '';
 if (false === ( $property_view = wp_rem_get_transient_obj('wp_rem_property_view' . $property_short_counter) )) {
     $property_view = isset($atts['property_view']) ? $atts['property_view'] : '';
@@ -531,9 +532,6 @@ if ($property_loop_obj->have_posts()) {
                                 <?php } ?>
                                 <div class="post-time">
                                     <small><?php echo wp_rem_plugin_text_srt('wp_rem_property_grid_listed_on'); ?> <?php echo esc_html($wp_rem_property_posted); ?> <?php echo wp_rem_plugin_text_srt('wp_rem_property_grid_by'); ?></small>
-                                    <?php if ($wp_rem_property_member != '' && FALSE != get_post_status($wp_rem_property_member)) { ?>
-                                        <span><a href="<?php echo get_the_permalink($wp_rem_property_member); ?>"><?php echo get_the_title($wp_rem_property_member); ?></a></span>
-                                    <?php } ?>
                                 </div>
 
                                 <?php
@@ -553,6 +551,12 @@ if ($property_loop_obj->have_posts()) {
                                     <?php } ?>
                                     </li>
                                     <li><i class="icon-mobile2"></i> <a href="tel:<?php echo esc_html($wp_rem_phone_number); ?>"><?php echo esc_html($wp_rem_phone_number);?></a>
+                                    </li>
+
+                                    <li><i class="icon-user4"></i> <a href="tel:<?php 
+                                    
+                                    echo esc_html($wp_rem_property_member); ?>"><?php
+                                        echo esc_html('BLUE'.$wp_rem_property_member); ?></a>
                                     </li>
                                 </ul><?php
                                 }
@@ -640,18 +644,21 @@ if ($property_loop_obj->have_posts()) {
                                     'enquiry_label' => 'Enquiry',
                                 );
 
-                                // Blueeye: regident
+                                // Blueeye: resident
                                 $wp_rem_phone_number = get_post_meta($wp_rem_property_member, 'wp_rem_phone_number', true);
 
                                 if ( isset($wp_rem_phone_number) && $wp_rem_phone_number != '' ) {
 
                                     $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number);
                                 ?>
-                                <div class="post-category-list regident">
+                                <div class="post-category-list resident">
                                     <div class="member-info">
-                                        <ul class="list-regident">
+                                        <ul class="list-resident">
                                             <li><i class="icon-user3"></i>
-                                                <?php if ($wp_rem_property_member != '' && FALSE != get_post_status($wp_rem_property_member)) { ?>
+                                                <?php 
+                                                $post_status = get_post_status($wp_rem_property_member);
+                                                echo $wp_rem_property_member;
+                                                if ($wp_rem_property_member != '' && FALSE != $post_status) { ?>
                                                 <span><a href="<?php echo get_the_permalink($wp_rem_property_member); ?>"><?php echo get_the_title($wp_rem_property_member); ?></a></span>
                                             <?php } ?>
                                             </li>
@@ -668,7 +675,7 @@ if ($property_loop_obj->have_posts()) {
                                     }
                                     if ($member_image != '' && get_post_status($wp_rem_property_member)) {
                                         ?>
-                                    <div class="thumb-regident">
+                                    <div class="thumb-resident">
                                         <figure>
                                             <a href="<?php echo get_the_permalink($wp_rem_property_member); ?>">
                                                 <img src="<?php echo esc_url($member_image[0]); ?>" alt="" >

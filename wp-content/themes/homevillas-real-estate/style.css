@@ -2874,7 +2874,7 @@ bottom: 0; height: 50%; left: 0; position: absolute; width: 100%; }
 }
 
 /*custom css*/
-div .post-category-list .regident {
+div .post-category-list .resident {
   width: 100%;
   overflow: hidden;
 }
@@ -2884,13 +2884,13 @@ div .member-info {
   float: left;
 }
 
-div .thumb-regident {
+div .thumb-resident {
   float: right;
   width: 22% !important;
   overflow: hidden !important;
 }
 
-ul, menu, dir .list-regident {
+ul, dir .list-resident {
   -webkit-padding-start: 40px !important;
   padding: 0px !important;
   margin: 0px;
