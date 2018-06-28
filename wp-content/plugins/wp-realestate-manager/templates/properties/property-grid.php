@@ -73,7 +73,9 @@ if ($property_view == 'grid') {
     }
     $main_class = 'property-grid';
 }
-
+if ( ! empty($team_members) && sizeof($team_members) > 1 ) { ?>
+                            <li><a data-toggle="tab" href="#member_tab"><?php echo wp_rem_plugin_text_srt('wp_rem_member_staff'); ?> </a></li>
+                        <?php }
 // $property_location_options = isset($atts['property_location']) ? $atts['property_location'] : '';
 $property_location_options = 'state,country';
 if ($property_location_options != '') {

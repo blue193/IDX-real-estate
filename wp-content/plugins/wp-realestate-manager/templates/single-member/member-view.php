@@ -466,12 +466,13 @@ if ( isset($wp_rem_user_status) && $wp_rem_user_status == 'active' ) {
                                                     if ( isset($team_members) && ! empty($team_members) ) {
                                                         foreach ( $team_members as $member_data ) {
                                                                     $wp_rem_team_member_name = $member_data->display_name;
+                                                                    $wp_rem_team_member_email = $member_data->user_email;
                                                                     // echo $wp_rem_team_member_name;      
                                             ?>
                                                 <div class="post-category-list">
                                                     <ul>
                                                         <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
-                                                        <li><i class="icon-mobile2"></i><a href="tel:<?php echo esc_html($wp_rem_phone_number); ?>"><?php echo esc_html($wp_rem_phone_number); }}?></a> </li>
+                                                        <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
                                                     </ul>
                                                 </div>
                                             <?php } ?>
