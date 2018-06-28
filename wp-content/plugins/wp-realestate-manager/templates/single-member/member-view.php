@@ -4,6 +4,8 @@
  *
  */
 global $post, $wp_rem_plugin_options, $wp_rem_theme_options, $Wp_rem_Captcha, $wp_rem_form_fields_frontend, $wp_rem_post_property_types;
+$realtor_phone_number = '+1(868) 729-9278 (8am-5pm Mon-Fri)';
+$realtor_email = 'admin@1on1realtors.com';
 $post_id = $post->ID;
 $wp_rem_user_status = get_post_meta($post_id, 'wp_rem_user_status', true);
 $wp_rem_captcha_switch = '';
@@ -467,8 +469,15 @@ if ( isset($wp_rem_user_status) && $wp_rem_user_status == 'active' ) {
                                                         foreach ( $team_members as $member_data ) {
                                                                     $wp_rem_team_member_name = $member_data->display_name;
                                                                     $wp_rem_team_member_email = $member_data->user_email;
-                                                                    // echo $wp_rem_team_member_name;      
                                             ?>
+                                                <div class="post-category-list">
+                                                    <ul>
+                                                        <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
+                                                        <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
+                                                    </ul>
+                                                </div>
+                                                <?php } 
+                                            else {?>
                                                 <div class="post-category-list">
                                                     <ul>
                                                         <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
