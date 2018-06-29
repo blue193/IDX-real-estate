@@ -1,0 +1,10 @@
+wp-content/uploads/
+local-config.php
+.htaccess
+real_estate.sublime-project
+real_estate.sublime-workspace
+wp-content/plugins/wp-migrate-db/
+wp-content/plugins/kint-debugger/
+wp-content/plugins/show-current-template/
+account.txt
+.DS_Store

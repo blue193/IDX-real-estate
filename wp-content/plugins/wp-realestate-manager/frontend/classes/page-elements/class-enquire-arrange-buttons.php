@@ -495,6 +495,45 @@ if ( ! class_exists('wp_rem_enquire_arrange_button_element') ) {
                 </div>
             </div>
             <?php
+            // getting team members info
+            $team_args = array(
+                'role' => 'wp_rem_member',
+                'meta_query' => array(
+                    array(
+                        'key' => 'wp_rem_company',
+                        'value' => $wp_rem_opt_array['std'],
+                        'compare' => '='
+                    ),
+                    array(
+                        'relation' => 'OR',
+                        array(
+                            'key' => 'wp_rem_user_status',
+                            'compare' => 'NOT EXISTS',
+                            'value' => 'completely'
+                        ),
+                        array(
+                            'key' => 'wp_rem_user_status',
+                            'value' => 'deleted',
+                            'compare' => '!='
+                        ),
+                    ),
+                    array(
+                        'relation' => 'OR',
+                        array(
+                            'key' => 'wp_rem_public_profile',
+                            'compare' => 'NOT EXISTS',
+                            'value' => 'completely'
+                        ),
+                        array(
+                            'key' => 'wp_rem_public_profile',
+                            'value' => 'yes',
+                            'compare' => '='
+                        ),
+                    ), 
+                ),
+            );
+
+            $team_members = get_users($team_args);
             $wp_rem_cs_inline_script = '
 			function wp_rem_enquire_arrange_send_message(form_id, type) {
 				"use strict";
@@ -834,6 +873,45 @@ if ( ! class_exists('wp_rem_enquire_arrange_button_element') ) {
                 </div>
             </div>
             <?php
+            // getting team members info
+            $team_args = array(
+                'role' => 'wp_rem_member',
+                'meta_query' => array(
+                    array(
+                        'key' => 'wp_rem_company',
+                        'value' => $wp_rem_opt_array['std'],
+                        'compare' => '='
+                    ),
+                    array(
+                        'relation' => 'OR',
+                        array(
+                            'key' => 'wp_rem_user_status',
+                            'compare' => 'NOT EXISTS',
+                            'value' => 'completely'
+                        ),
+                        array(
+                            'key' => 'wp_rem_user_status',
+                            'value' => 'deleted',
+                            'compare' => '!='
+                        ),
+                    ),
+                    array(
+                        'relation' => 'OR',
+                        array(
+                            'key' => 'wp_rem_public_profile',
+                            'compare' => 'NOT EXISTS',
+                            'value' => 'completely'
+                        ),
+                        array(
+                            'key' => 'wp_rem_public_profile',
+                            'value' => 'yes',
+                            'compare' => '='
+                        ),
+                    ), 
+                ),
+            );
+
+            $team_members = get_users($team_args);
             $wp_rem_cs_inline_script = '
 			function wp_rem_arrange_view_send_message(form_id, type) {
 				"use strict";
