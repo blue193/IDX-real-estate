@@ -6,7 +6,6 @@
 global $post, $wp_rem_plugin_options, $wp_rem_theme_options, $Wp_rem_Captcha, $wp_rem_form_fields_frontend, $wp_rem_post_property_types;
 $realtor_phone_number = '+1(868) 729-9278 (8am-5pm Mon-Fri)';
 $realtor_email = 'admin@1on1realtors.com';
-$post_id = $post->ID;
 $wp_rem_user_status = get_post_meta($post_id, 'wp_rem_user_status', true);
 $wp_rem_captcha_switch = '';
 $wp_rem_captcha_switch = isset($wp_rem_plugin_options['wp_rem_captcha_switch']) ? $wp_rem_plugin_options['wp_rem_captcha_switch'] : '';
@@ -463,28 +462,27 @@ if ( isset($wp_rem_user_status) && $wp_rem_user_status == 'active' ) {
                                             <!-- Blueeye : single-member -->
 
                                             <?php
-                                            if ( isset($wp_rem_phone_number) && $wp_rem_phone_number != '' ) {
+                                            if ( strcmp($member_title, '1on1realtor') != 0 ) {
                                                 $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number);
                                                     if ( isset($team_members) && ! empty($team_members) ) {
                                                         foreach ( $team_members as $member_data ) {
-                                                                    $wp_rem_team_member_name = $member_data->display_name;
-                                                                    $wp_rem_team_member_email = $member_data->user_email;
-                                            ?>
-                                                <div class="post-category-list">
-                                                    <ul>
-                                                        <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
-                                                        <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
-                                                    </ul>
-                                                </div>
-                                                <?php } 
+                                                            $wp_rem_team_member_name = $member_data->display_name;
+                                                            $wp_rem_team_member_email = $member_data->user_email; ?>
+                                                            <div class="post-category-list">
+                                                                <ul>
+                                                                    <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
+                                                                    <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
+                                                                </ul>
+                                                            </div>
+                                            <?php } 
                                             else {?>
                                                 <div class="post-category-list">
                                                     <ul>
-                                                        <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
-                                                        <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
+                                                        <li><i class="icon- icon-envelope2"></i><a href="#"><span><?php echo esc_html($realtor_email); ?></span></a></li>
+                                                        <li><i class="icon-phone2"></i><a href="#"><?php echo esc_html($realtor_phone_number)?></a> </li>
                                                     </ul>
                                                 </div>
-                                            <?php } ?>
+                                            <?php }?>
                                             <?php if ( isset($member_image) && $member_image != '' ) { ?>
                                                 <div class="thumb-img">
                                                     <a href="<?php echo esc_url($member_link); ?>"><img src="<?php echo esc_url($member_image); ?>"></a>

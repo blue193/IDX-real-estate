@@ -1,0 +1,18 @@
+Searching 35 files for "member-view.php"
+
+0 matches
+
+Searching 523 files for "member-view"
+
+0 matches
+
+Searching 6090 files for "HAHAH"
+
+/Applications/MAMP/htdocs/remote/realtor/wp-content/plugins/wp-realestate-manager/shortcodes/frontend/shortcode-properties.php:
+   62  			do_action('property_checks_enquire_lists_submit');
+   63              ?> 
+   64:             <div class="wp-rem-property-content" id="wp-rem-property-content-<?php echo esc_html($property_short_counter); ?>">
+   65                  <?php
+   66                  echo '<div class="dev-map-class-changer' . $map_change_class . '">'; // container for content area when top map on
+
+1 match in 1 file

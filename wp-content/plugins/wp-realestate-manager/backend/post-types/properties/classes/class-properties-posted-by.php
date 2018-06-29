@@ -87,8 +87,6 @@ if (!class_exists('wp_rem_posted_by')) {
                     'return' => true,
                 ),
             );
-
-            // print_r($wp_rem_opt_array);
             $wp_rem_html_fields->wp_rem_select_field($wp_rem_opt_array);
 		
 		}
@@ -96,7 +94,6 @@ if (!class_exists('wp_rem_posted_by')) {
 		// Blue: 
 		public function wp_rem_load_all_members_callback(){
 			global $wp_rem_form_fields;
-			echo "TETETETETET";
 			
 			$selected_member = wp_rem_get_input('selected_member', '', 'STRING');
 			$wp_rem_members_list = array( '' => wp_rem_plugin_text_srt( 'wp_rem_property_select_member' ) );
@@ -124,7 +121,9 @@ if (!class_exists('wp_rem_posted_by')) {
 
             $html = $wp_rem_form_fields->wp_rem_form_select_render($wp_rem_opt_array);
 			$html .= '<script type="text/javascript">
-				jQuery(document).ready(function () {alert("kk");
+				jQuery(document).ready(function () {
+					// blue
+					alert("realtor/wp-content/plugins/wp-realestate-manager/backend/post-types/properties/classes/class-properties-posted-by.php");
 					chosen_selectionbox();
 				});
 			</script>';

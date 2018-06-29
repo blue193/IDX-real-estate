@@ -3,8 +3,10 @@
  * Property search box
  *
  */
-global $wp_rem_post_property_types, $wp_rem_plugin_options;
 
+global $wp_rem_post_property_types, $wp_rem_plugin_options, $post, $wp_rem_member_profile;
+$realtor_phone_number = '+1(868) 729-9278 (8am-5pm Mon-Fri)';
+$realtor_email = 'admin@1on1realtors.com';
 $default_property_no_custom_fields = isset($wp_rem_plugin_options['wp_rem_property_no_custom_fields']) ? $wp_rem_plugin_options['wp_rem_property_no_custom_fields'] : '';
 if (false === ( $property_view = wp_rem_get_transient_obj('wp_rem_property_view' . $property_short_counter) )) {
     $property_view = isset($atts['property_view']) ? $atts['property_view'] : '';
@@ -73,9 +75,7 @@ if ($property_view == 'grid') {
     }
     $main_class = 'property-grid';
 }
-if ( ! empty($team_members) && sizeof($team_members) > 1 ) { ?>
-                            <li><a data-toggle="tab" href="#member_tab"><?php echo wp_rem_plugin_text_srt('wp_rem_member_staff'); ?> </a></li>
-                        <?php }
+
 // $property_location_options = isset($atts['property_location']) ? $atts['property_location'] : '';
 $property_location_options = 'state,country';
 if ($property_location_options != '') {
@@ -99,6 +99,8 @@ if ($property_loop_obj->have_posts()) {
                     $wp_rem_property_member = get_post_meta($property_id, 'wp_rem_property_member', true);
                     $wp_rem_property_is_featured = get_post_meta($property_id, 'wp_rem_property_is_featured', true);
                     $wp_rem_profile_image = $wp_rem_member_profile->member_get_profile_image($wp_rem_property_username);
+                    $member_view = wp_rem_get_transient_obj('wp_rem_member_view' . $member_short_counter);
+
                     $wp_rem_property_price_options = get_post_meta($property_id, 'wp_rem_property_price_options', true);
                     $wp_rem_property_type = get_post_meta($property_id, 'wp_rem_property_type', true);
                     $wp_rem_property_posted = get_post_meta($property_id, 'wp_rem_property_posted', true);
@@ -133,6 +135,7 @@ if ($property_loop_obj->have_posts()) {
                     if (!empty($wp_rem_property_category) && is_array($wp_rem_property_category)) {
                         $comma_flag = 0;
                         foreach ($wp_rem_property_category as $cate_slug => $cat_val) {
+                            
                             $wp_rem_cate = get_term_by('slug', $cat_val, 'property-category');
                             if (!empty($wp_rem_cate)) {
                                 $cate_link = wp_rem_property_category_link($property_type_id, $cat_val);
@@ -349,7 +352,6 @@ if ($property_loop_obj->have_posts()) {
             $hide_list_html = '';
             $hidden_property_count = 0;
             while ($property_loop_obj->have_posts()) : $property_loop_obj->the_post();
-                global $post, $wp_rem_member_profile;
                 $property_id = $post;
                 $pro_is_compare = apply_filters('wp_rem_is_compare', $property_id, $compare_property_switch);
                 $Wp_rem_Locations = new Wp_rem_Locations();
@@ -369,6 +371,46 @@ if ($property_loop_obj->have_posts()) {
                 if ($count_all > $gallery_pics_allowed) {
                     $count_all = $gallery_pics_allowed;
                 }
+                // getting team members info
+                $team_args = array(
+                    'role' => 'wp_rem_member',
+                    'meta_query' => array(
+                        array(
+                            'key' => 'wp_rem_company',
+                            'value' => $wp_rem_property_member,
+                            'compare' => '='
+                        ),
+                        array(
+                            'relation' => 'OR',
+                            array(
+                                'key' => 'wp_rem_user_status',
+                                'compare' => 'NOT EXISTS',
+                                'value' => 'completely'
+                            ),
+                            array(
+                                'key' => 'wp_rem_user_status',
+                                'value' => 'deleted',
+                                'compare' => '!='
+                            ),
+                        ),
+                        array(
+                            'relation' => 'OR',
+                            array(
+                                'key' => 'wp_rem_public_profile',
+                                'compare' => 'NOT EXISTS',
+                                'value' => 'completely'
+                            ),
+                            array(
+                                'key' => 'wp_rem_public_profile',
+                                'value' => 'yes',
+                                'compare' => '='
+                            ),
+                        ), 
+                    ),
+                );
+
+                $team_members = get_users($team_args);
+
                 // checking review in on in property type
                 $wp_rem_property_type = isset($wp_rem_property_type) ? $wp_rem_property_type : '';
                 if ($property_type_post = get_page_by_path($wp_rem_property_type, OBJECT, 'property-type'))
@@ -391,6 +433,7 @@ if ($property_loop_obj->have_posts()) {
                 if (!empty($wp_rem_property_category) && is_array($wp_rem_property_category)) {
                     $comma_flag = 0;
                     foreach ($wp_rem_property_category as $cate_slug => $cat_val) {
+                        
                         $wp_rem_cate = get_term_by('slug', $cat_val, 'property-category');
                         if (!empty($wp_rem_cate)) {
                             $cate_link = wp_rem_property_category_link($property_type_id, $cat_val);
@@ -411,7 +454,7 @@ if ($property_loop_obj->have_posts()) {
                     if (!empty($wp_rem_property_hide_list) && wp_rem_find_in_multiarray($property_id, $wp_rem_property_hide_list, 'property_id')) {
                         $hide_list_html .= '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> ';
                         $hide_list_html .= '<div class="text-holder">
-                                            <strong class="post-title"> 
+                                            <strong class="post-title">
                                                 <span class="hidden-result-label">' . wp_rem_plugin_text_srt('wp_rem_properties_hidden_text') . '</span>
                                                 <a href="' . esc_url(get_permalink($property_id)) . '">' . esc_html(get_the_title($property_id)) . '</a>                  
                                             </strong> 
@@ -533,16 +576,40 @@ if ($property_loop_obj->have_posts()) {
                                     </span>
                                 <?php } ?>
                                 <div class="post-time">
-                                    <small><?php echo wp_rem_plugin_text_srt('wp_rem_property_grid_listed_on'); ?> <?php echo esc_html($wp_rem_property_posted); ?> <?php echo wp_rem_plugin_text_srt('wp_rem_property_grid_by'); ?></small>
+                                    
                                 </div>
 
                                 <?php
 
                                 // Blueeye: Search
 
-                                $wp_rem_phone_number = get_post_meta($wp_rem_property_member, 'wp_rem_phone_number', true);
+                                $wp_rem_phone_number = get_post_meta($wp_rem_property_member, 'wp_rem_phone_number', true); 
+                                $wp_rem_property_name = get_the_title($wp_rem_property_member);
+                                ?>
 
-                                if ( isset($wp_rem_phone_number) && $wp_rem_phone_number != '' ) {
+                                <div class="post-category-list regident"><?php
+                                    if ( strcmp($wp_rem_property_name, '1on1realtor') == 0 ) {
+                                        if ( isset($team_members) && ! empty($team_members) ) {
+                                            foreach ( $team_members as $member_data ) {
+                                                $wp_rem_team_member_name = $member_data->display_name;
+                                                $wp_rem_team_member_email = $member_data->user_email; ?>
+                                                <div class="member-info">
+                                                    <ul class="list-resident">
+                                                        <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
+                                                        <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
+                                                    </ul>
+                                                </div>
+                                                <?php } 
+                                    else {?>
+                                                <div class="member-info">
+                                                    <ul class="list-resident">
+                                                        <li><i class="icon- icon-envelope2"></i><a href="#"><span><?php echo esc_html($realtor_email); ?></span></a></li>
+                                                        <li><i class="icon-phone2"></i><a href="#"><?php echo esc_html($realtor_phone_number)?></a> </li>
+                                                    </ul>
+                                                </div>
+                                    <?php } ?>
+                                </div> <?php
+                                if ( isset($wp_rem_phone_number) && $wp_rem_phone_number == '' ) {
 
                                     $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number);
                                 ?>
@@ -648,43 +715,55 @@ if ($property_loop_obj->have_posts()) {
 
                                 // Blueeye: resident
                                 $wp_rem_phone_number = get_post_meta($wp_rem_property_member, 'wp_rem_phone_number', true);
-
-                                if ( isset($wp_rem_phone_number) && $wp_rem_phone_number != '' ) {
-
-                                    $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number);
-                                ?>
-                                <div class="post-category-list resident">
-                                    <div class="member-info">
-                                        <ul class="list-resident">
-                                            <li><i class="icon-user3"></i>
-                                                <?php 
-                                                $post_status = get_post_status($wp_rem_property_member);
-                                                echo $wp_rem_property_member;
-                                                if ($wp_rem_property_member != '' && FALSE != $post_status) { ?>
-                                                <span><a href="<?php echo get_the_permalink($wp_rem_property_member); ?>"><?php echo get_the_title($wp_rem_property_member); ?></a></span>
-                                            <?php } ?>
-                                            </li>
-                                            <li><i class="icon-mobile2"></i> <a href="tel:<?php echo esc_html($wp_rem_phone_number); ?>"><?php echo esc_html($wp_rem_phone_number);?></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <?php
-                                    }                                
-                                    $member_image_id = get_post_meta($wp_rem_property_member, 'wp_rem_profile_image', true);
-                                    $member_image = wp_get_attachment_image_src($member_image_id, 'thumbnail');
-                                    if ($member_image == '' || FALSE == get_post_status($wp_rem_property_member)) {
-                                        $member_image[0] = esc_url(wp_rem::plugin_url() . 'assets/frontend/images/member-no-image.jpg');
-                                    }
-                                    if ($member_image != '' && get_post_status($wp_rem_property_member)) {
-                                        ?>
-                                    <div class="thumb-resident">
-                                        <figure>
-                                            <a href="<?php echo get_the_permalink($wp_rem_property_member); ?>">
-                                                <img src="<?php echo esc_url($member_image[0]); ?>" alt="" >
-                                            </a>
-                                        </figure>
-                                    </div>
+                                $wp_rem_property_name = get_the_title($wp_rem_property_member);?>
+                                <div class="post-category-list regident"><?php
+                                    if ( strcmp($wp_rem_property_name, '1on1realtor') == 0 ) {
+                                        if ( isset($team_members) && ! empty($team_members) ) {
+                                            foreach ( $team_members as $member_data ) {
+                                                $wp_rem_team_member_name = $member_data->display_name;
+                                                $wp_rem_team_member_email = $member_data->user_email; ?>
+                                                <div class="member-info">
+                                                    <ul class="list-resident">
+                                                        <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
+                                                        <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
+                                                    </ul>
+                                                </div>
+                                                <?php } 
+                                    else {?>
+                                                <div class="member-info">
+                                                    <ul class="list-resident">
+                                                        <li><i class="icon- icon-envelope2"></i><a href="#"><span><?php echo esc_html($realtor_email); ?></span></a></li>
+                                                        <li><i class="icon-phone2"></i><a href="#"><?php echo esc_html($realtor_phone_number)?></a> </li>
+                                                    </ul>
+                                                </div>
+                                    <?php } ?>
                                 </div>
+                                <?php
+                                if ( isset($wp_rem_phone_number) && $wp_rem_phone_number == '' ) {
+
+                                    $wp_rem_phone_number = str_replace(" ", "-", $wp_rem_phone_number); ?>
+                                    <div class="post-category-list resident">
+                                        <div class="member-info">
+                                            <ul class="list-resident">
+                                                <li><i class="icon- icon-envelope2"></i><a href="#"><span><?php echo esc_html($realtor_email); ?></span></a></li>
+                                                <li><i class="icon-phone2"></i><a href="#"><?php echo esc_html($realtor_phone_number)?></a> </li>
+                                            </ul>
+                                        </div> <?php
+                                        }                                
+                                        $member_image_id = get_post_meta($wp_rem_property_member, 'wp_rem_profile_image', true);
+                                        $member_image = wp_get_attachment_image_src($member_image_id, 'thumbnail');
+                                        if ($member_image == '' || FALSE == get_post_status($wp_rem_property_member)) {
+                                            $member_image[0] = esc_url(wp_rem::plugin_url() . 'assets/frontend/images/member-no-image.jpg');
+                                        }
+                                        if ($member_image != '' && get_post_status($wp_rem_property_member)) { ?>
+                                        <div class="thumb-resident">
+                                            <figure>
+                                                <a href="<?php echo get_the_permalink($wp_rem_property_member); ?>">
+                                                    <img src="<?php echo esc_url($member_image[0]); ?>" alt="" >
+                                                </a>
+                                            </figure>
+                                        </div>
+                                    </div>
                                 
                                 <?php }
                                 do_action('wp_rem_enquiry_check_frontend_button', $property_id, $prop_enquir_args);
