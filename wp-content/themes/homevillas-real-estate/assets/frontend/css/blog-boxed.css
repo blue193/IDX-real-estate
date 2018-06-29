@@ -1,0 +1,63 @@
+.testimonial-holder.default.v2 {
+	border: 0;
+	padding: 0;
+	text-align:center;
+	max-width:968px;
+	margin:0 auto;
+}
+.testimonial-holder.default.v2 .text-holder .author-info .text-holder,
+.testimonial-holder.default.v2 .text-holder .author-info.default{text-align:center;width:100%;}
+.testimonial-holder.default.v2 .img-holder {
+	display: block;
+	float: none;
+	max-width: 434px;
+	width:100%;
+	margin: 0 auto 35px;
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+}
+.testimonial-holder.default.v2 .img-holder figure {
+	display: inline-block;
+	vertical-align: top;
+	width: 68px;
+	height: 68px;
+	border-radius: 100%;
+	position: relative;
+}
+.testimonial-holder.default.v2 .img-holder figure img {
+	max-width: 100%;
+	border-radius: 100%;
+}
+.testimonial-holder.default.v2 .img-holder figure:after,
+.testimonial-holder.default.v2 .img-holder figure:before {
+	position: absolute;
+	content: "";
+	top: 50%;
+	width: 99999px;
+	height: 1px;
+	background: #edeef0;
+	left: 100%;
+	margin-left: 14px;
+}
+.testimonial-holder.default.v2 .img-holder figure:after {
+	left: auto;
+	right: 100%;
+	margin-left: 0px;
+	margin-right: 14px;
+}
+.testimonial-holder.default.v2 .text-holder p {
+    color: #555555;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: inherit;
+    font-weight: 300;
+    font-style: italic;
+}
+.testimonial-holder.default.v2 .text-holder p:before,
+.testimonial-holder.default.v2 .text-holder p:after {
+	color: #999999;
+}
+.testimonial-holder.default.v2 .text-holder p:before {
+	left: 5px;
+}

@@ -1,0 +1,83 @@
+/* Social Network Head */
+.social-head { width: 100%; color: #FFF; float: left; font-weight: bold; background: #464646; }
+.social-head ul { width: 100%; float: left; }
+.social-head ul li { float: left; padding: 10px 0 10px 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.social-head ul li.name { width: 185px; }
+.social-head ul li.socialbox { width: 435px; }
+/* Social Network Icons */
+.social-preview span.facebook { background-position: 0px 0px; }
+.social-preview span.twitter { background-position: 0px -35px; }
+.social-preview span.linkedin { background-position: 0 -70px; }
+.social-preview span.myspace { background-position: 0px -105px; }
+.social-preview span.vimeo { background-position: 0px -140px; }
+.social-preview span.digg { background-position: 0px -175px; }
+.social-preview span.lastfm { background-position: 0px -210px; }
+.social-preview span.rss-feeds { background-position: 0px -245px; }
+.social-preview span.stumble-upon { background-position: 0px -280px; }
+.social-preview span.dribbble { background-position: 0px -315px; }
+.social-preview span.reddit { background-position: 0px -350px; }
+.social-preview span.flickr { background-position: 0px -385px; }
+.social-preview span.skype { background-position: 0px -420px; }
+.social-preview span.youtube { background-position: 0px -455px; }
+.social-preview span.pinterest { background-position: 0px -490px; }
+.social-preview span.foursquare { background-position: 0px -525px; }
+.social-preview span.tumbler { background-position: 0px -560px; }
+.social-preview span.gplus { background-position: 0px -595px; }
+.social-preview span.instagram { background-position: 0px -630px; }
+.social-preview span.blogger { background-position: 0px -665px; }
+.social-preview span.soundcloud { background-position: 0px -700px; }
+.social-preview span.rdio { background-position: 0px -735px; }
+.social-preview span.groovshark { background-position: 0px -770px; }
+.social-preview span.path { background-position: 0px -805px; }
+.social-preview span.amazon { background-position: 0px -840px; }
+.social-preview span.itunes { background-position: 0px -875px; }
+.social-preview span.spotify { background-position: 0px -910px; }
+/*Cs Icon*/
+.cs-icon { background: url(../images/element-sprite.png); background-position: -18px -20px; display: inline-block; width: 40px; height: 50px; }
+.cs-icon.audio-icon { background-position: -18px -1407px; }
+.cs-icon.contentslider-icon { background-position: -7px -940px; width: 60px; }
+.cs-icon.blog-icon { background-position: -18px -2312px; }
+.cs-icon.call_to_action-icon { background-position: -18px -124px; }
+.cs-icon.cs-client { background-position: -18px -386px; }
+.cs-icon.counter-icon { background-position: -18px -236px; }
+.cs-icon.cs-content-slide { background-position: -18px -2196px; }
+.cs-icon.dropcap-icon { background-position: -18px -829px; }
+.cs-icon.flex_column-icon { background-position: -18px -496px; }
+.cs-icon.heading-icon { background-position: -18px -496px; }
+.cs-icon.button-icon { background-position: -18px -72px; }
+.cs-icon.course-icon { background-position: -18px -1082px; }
+.cs-icon.clients-icon { background-position: -18px -1042px; }
+.cs-icon.contactus-icon { background-position: -18px -566px; }
+.cs-icon.tweets-icon { background-position: -18px -1348px; }
+.cs-icon.divider-icon { background-position: -18px -1892px; }
+.cs-icon.dropcap-icon { background-position: -18px -1945px; }
+.cs-icon.flex_column-icon { background-position: -18px -466px; }
+.cs-icon.gallery-icon { background-position: -18px -1458px; }
+.cs-icon.heading-icon { background-position: -18px -1999px; }
+.cs-icon.highlight-icon { background-position: -18px -2265px; }
+.cs-icon.icons-icon { background-position: -20px -622px; }
+.cs-icon.infobox-icon { background-position: -18px -728px; }
+.cs-icon.image-icon { background-position: -18px -1505px; }
+.cs-icon.list-icon { background-position: -18px -2051px; }
+.cs-icon.map-icon { background-position: -18px -778px; }
+.cs-icon.mesage-icon { background-position: -18px -2104px; }
+.cs-icon.members-icon { background-position: -18px -1037px; }
+.cs-icon.offerslider-icon { background-position: -18px -1178px; }
+.cs-icon.progressbars-icon { background-position: -18px -335px; }
+.cs-icon.piecharts-icon { background-position: -18px -177px; }
+.cs-icon.piecharts-icon { background-position: -18px -173px; }
+.cs-icon.promobox-icon { background-position: -18px -1555px; }
+.cs-icon.pricetable-icon { background-position: -18px -284px; }
+.cs-icon.slider-icon { background-position: -18px -1714px; }
+.cs-icon.slider-icon { background-position: -18px -1179px; }
+.cs-icon.services-icon { background-position: -18px -383px; }
+.cs-icon.teams-icon { background-position: -18px -1130px; }
+.cs-icon.tooltip-icon { background-position: -18px -2208px; }
+.cs-icon.tabs-icon { background-position: -18px -462px; }
+.cs-icon.testimonials-icon { background-position: -18px -2158px; }
+.cs-icon.table-icon { background-position: -18px -419px; height: 49px; }
+.cs-icon.video-icon { background-position: -18px -1608px; }
+.cs-icon.spacer-icon { background-position: -18px -510px; }
+.cs-icon.richeditor-icon { background-position: -18px -1663px; }
+.cs-icon.causes-icon { background-position: -18px -989px; }
+.cs-icon.members-icon { background-position: -18px -2360px; }

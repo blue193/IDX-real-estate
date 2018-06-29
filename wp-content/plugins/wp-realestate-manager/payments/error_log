@@ -1,0 +1,2 @@
+[31-Jan-2017 09:31:21 UTC] PHP Notice:  Use of undefined constant WP_REM_SEPARATOR - assumed 'WP_REM_SEPARATOR' in /home/serverwp/public_html/homevillas/wp-content/plugins/wp-realestate-manager/frontend/templates/dashboards/member/social-api/twitteroauth.php on line 70
+[31-Jan-2017 09:31:26 UTC] PHP Notice:  Use of undefined constant WP_REM_SEPARATOR - assumed 'WP_REM_SEPARATOR' in /home/serverwp/public_html/homevillas/wp-content/plugins/wp-realestate-manager/frontend/templates/dashboards/member/social-api/twitteroauth.php on line 70

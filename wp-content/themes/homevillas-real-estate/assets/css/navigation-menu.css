@@ -1,0 +1,93 @@
+#wp_rem_cs-main-navigation{
+     float:right;
+ }
+#wp_rem_cs-main-navigation ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+#wp_rem_cs-main-navigation ul li
+{
+    position:relative;
+    float:left;
+    margin: 0 20px 0 20px;
+    padding:0
+}
+#wp_rem_cs-main-navigation ul li:last-child{
+    margin-right:0;
+}
+#wp_rem_cs-main-navigation ul li.current-menu-item
+{
+    text-decoration: underline;
+}
+#wp_rem_cs-main-navigation ul a
+{
+    display:block;
+    text-decoration:none;
+    font-size:15px;
+}
+
+#wp_rem_cs-main-navigation ul ul
+{
+    display:none;
+    position:absolute;
+    top:auto;
+    left:0;
+    background:#2C3E50;
+    border-top:4px solid #e75135;
+    padding:0;
+    z-index:100;
+}
+#wp_rem_cs-main-navigation ul ul li
+{
+    float:none;
+   width:155px;
+    margin:0;
+}
+#wp_rem_cs-main-navigation ul ul a
+{
+    line-height:120%;
+    padding:10px 15px;
+    font-size:14px;
+
+}
+#wp_rem_cs-main-navigation ul ul ul
+{
+    top:-4px;
+    left:100%;
+    border-top:4px solid #f26522;
+}
+#wp_rem_cs-main-navigation ul li:hover > ul
+{
+    display:block
+}
+/*
+* Secondary navigation
+*/
+#wp_rem_cs-top-navigation{
+    list-style-type: none;
+}
+#wp_rem_cs-top-navigation ul {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0
+}
+#wp_rem_cs-top-navigation ul li{
+    display:inline-block;
+    margin:0 15px 0 0;
+}
+#wp_rem_cs-top-navigation ul ul{
+    display:none;
+}
+#wp_rem_cs-top-navigation ul li a{
+    font-size:14px;
+    color:#f26522;
+}
+#wp_rem_cs-top-navigation ul li a:hover{
+    color: #333333;
+}

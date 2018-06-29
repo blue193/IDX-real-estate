@@ -1,0 +1,30 @@
+/*icon Generator styel start*/
+.cs-icons-manager-wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; margin: 0 0 0 -10px; }
+.cs-icons-manager-list { width: 32%; padding: 0; border: 1px solid #e5e5e5; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04); box-shadow: 0 1px 1px rgba(0,0,0,.04); background: #fff; display: inline-block; margin: 10px 0 0 10px; }
+.cs-icons-manager-list .cs-icons-list { height: 100%;min-height: 110px; max-height: 110px; overflow: hidden; overflow-y: auto; border: solid 1px #ccc; }
+.cs-icons-manager-list .cs-icons-list ul { margin: 0; padding: 0; }
+.cs-icons-manager-list .cs-icons-list ul li { list-style: none; display: inline-block; vertical-align: top; border-bottom: solid 1px #ccc; border-right: solid 1px #ccc; padding: 0; margin: 0 -1px -1px 0; text-shadow: none; box-shadow: none; font-size: 16px; line-height: 36px; width: 10%; height: 37px; text-align: center; cursor: pointer;}
+.cs-icons-manager-list .cs-icons-list ul li:hover{background:#444;color:#fff;}
+.cs-icons-manager-list h3.icon_font_name { border-bottom: solid 1px #ccc; margin: 0 0 20px 0; padding: 10px 20px; }
+.cs-icons-manager-list h3.icon_font_name:after { clear: both; display: block; content: ""; }
+.cs-icons-manager-list h3.icon_font_name strong { text-transform: capitalize; line-height: 32px; }
+.cs-icons-manager-list h3.icon_font_name strong, .cs-icons-manager-list h3.icon_font_name span { display: inline-block; vertical-align: middle; }
+.cs-icons-manager-list .inside { margin: 0; padding: 0 20px 0; }
+.cs-icons-manager-list h3.icon_font_name .pbwp-checkbox { padding: 0 !important; margin: 0 !important; float: right; }
+.cs-icons-manager-list h3.icon_font_name span.cs-count-icons { background: #0073aa; padding: 2px 8px; color: #fff; font-size: 11px; border-radius: 4px; line-height: 16px; margin-left: 6px; }
+.cs-icons-manager-list h3.icon_font_name span.cs-group-remove { float: right; padding: 6px 16px; background: #ff6363; color: #fff; border-radius: 3px; margin-left: 10px; cursor: pointer; line-height: 20px; }
+span.cs-upload-spinner { position: relative; display: inline-block; line-height: 20px; vertical-align: text-top; margin-top: 3px; margin-left: 16px; margin-right: 16px; }
+#confirmBox .confirm-yes i { margin: 13px 0 0 9px; }
+.cs-icons-manager-list .postbox { border: 0; -webkit-box-shadow: none; box-shadow: none; background: transparent; }
+.prettycheckbox .icon_font_name a.checked, .icon_font_name .pbwp-checkbox input[type="checkbox"]:checked + span.pbwp-box, .prettycheckbox .icon_font_name a, .icon_font_name .pbwp-checkbox span.pbwp-box { background-position: -1px -755px; }
+.prettycheckbox .icon_font_name a, .icon_font_name .pbwp-checkbox span.pbwp-box { background-position: -65px -755px; }
+.cs-library-icons-list { margin-top: 10px; }
+.cs-icon-choser .chosen-container.chosen-container-single { width: 100% !important; max-width: 229px; display: inline-block; vertical-align: top; margin: 0 0 0 10px; }
+.cs-icon-choser .chosen-container-single .chosen-single { border-radius: 0; font-size: 12px; height: 40px; line-height: 38px; padding: 0 12px; border: 1px solid #ccc; }
+.cs-icon-choser .chosen-single span { line-height: 40px; }
+.cs-icon-choser .cs-library-icons-list { display: inline-block; vertical-align: top; margin: 0; }
+.cs-icon-choser .cs-library-icons-list .selector { position: relative; }
+.cs-icon-choser .cs-library-icons-list .selector span.icons-manager-loader { position: absolute; top: 2px; right: 14px; height: 36px; line-height: 37px; width: 17px; text-align: center; display: inline-block; background: #fff; }
+.cs-icon-choser .cs-library-icons-list .selector span.icons-manager-loader i { right: 0; top: 0; position: absolute; -webkit-animation: fa-spin 2s infinite linear; animation: fa-spin 2s infinite linear; }
+i.icon-spinner8 { position: absolute; -webkit-animation: fa-spin 2s infinite linear; animation: fa-spin 2s infinite linear; }
+/*icon Generator styel End*/

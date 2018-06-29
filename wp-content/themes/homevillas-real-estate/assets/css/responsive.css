@@ -1,0 +1,28 @@
+/*
+* Responsive Media Queries
+*/
+@media screen and (min-width:1400px) and (max-width:2000px){
+}
+@media screen and (max-width:1399px){
+    .main-header .login-area{width: 100%; text-align: right;}
+}
+@media screen and (max-width:1024px){
+    .responsive-menu{display:none;}
+    #mobile-header{display:block!important;}
+    #wp_rem_cs-top-bar{display:none;}
+    .main-header .login-area
+}
+@media screen and (max-width:992px){
+    #wp_rem_cs-main-search-form{position:relative!important;background:#2C3E50;padding:10px 20px!important;color:#fff;text-align:center;left:0!important;top:0!important;transform:none!important;-webkit-transform:none!important;}
+    .comment-body > .row > .col-md-10{margin-left:0!important;}
+    .custom-search-form input[type="text"],.custom-search-form select{width:100%!important;margin:0!important;}
+    .custom-search-form input[type="text"]:first-child{margin:0!important;}
+    .custom-search-form input[type="submit"]{margin:0!important;}
+}
+@media screen and (max-width:768px){
+    #wp_rem_cs-socials-list{float:none;text-align:center;list-style-type:none;}
+    #wp_rem_cs-logo{text-align:center;}
+    #logo{margin:0 auto;}
+}
+@media screen and (max-width:520px){
+}

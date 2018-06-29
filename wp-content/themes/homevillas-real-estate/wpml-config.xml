@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">post</custom-type>
+ 		<custom-type translate="1">page</custom-type>
+	</custom-types>
+	
+	<taxonomies>
+		<taxonomy translate="1">category</taxonomy>
+		<taxonomy translate="1">post_tag</taxonomy>
+	</taxonomies>
+</wpml-config>

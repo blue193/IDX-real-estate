@@ -1,0 +1,31 @@
+.wp-rem-price-table{
+    display: inline-block;
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.wp-rem-price-table table{
+    margin-bottom: 30px;
+}
+
+.wp-rem-price-table .action-btns{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wp-rem-price-table table tr td a.pt_delete_col,
+.wp-rem-price-table table tr td a.pt_delete_row{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 17px;
+    text-align: center;
+    background-color: #222222;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 15px;
+}
