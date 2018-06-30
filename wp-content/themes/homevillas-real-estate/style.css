@@ -2890,7 +2890,7 @@ div .thumb-resident {
   overflow: hidden !important;
 }
 
-ul, dir .list-resident {
+.list-resident, dir .list-resident {
   -webkit-padding-start: 40px !important;
   padding: 0px !important;
   margin: 0px;
