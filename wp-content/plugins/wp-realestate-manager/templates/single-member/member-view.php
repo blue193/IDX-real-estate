@@ -470,16 +470,16 @@ if ( isset($wp_rem_user_status) && $wp_rem_user_status == 'active' ) {
                                                             $wp_rem_team_member_email = $member_data->user_email; ?>
                                                             <div class="post-category-list">
                                                                 <ul>
-                                                                    <li><i class="icon-user3"></i><a href="#"><span><?php echo esc_html($wp_rem_team_member_name); ?></span></a></li>
-                                                                    <li><i class="icon- icon-envelope2"></i><a href="tel:<?php echo esc_html($wp_rem_team_member_email); ?>"><?php echo esc_html($wp_rem_team_member_email); }}?></a> </li>
+                                                                    <li><i class="icon-user3"></i><span><?php echo esc_html($wp_rem_team_member_name); ?></span></li>
+                                                                    <li><i class="icon- icon-envelope2"></i><?php echo esc_html($wp_rem_team_member_email); }}?></li>
                                                                 </ul>
                                                             </div>
                                             <?php } 
                                             else {?>
                                                 <div class="post-category-list">
                                                     <ul>
-                                                        <li><i class="icon- icon-envelope2"></i><a href="#"><span><?php echo esc_html($realtor_email); ?></span></a></li>
-                                                        <li><i class="icon-phone2"></i><a href="#"><?php echo esc_html($realtor_phone_number)?></a> </li>
+                                                        <li><i class="icon- icon-envelope2"></i><span><?php echo esc_html($realtor_email); ?></span></li>
+                                                        <li><i class="icon-phone2"></i><?php echo esc_html($realtor_phone_number)?></li>
                                                     </ul>
                                                 </div>
                                             <?php }?>
