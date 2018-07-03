@@ -1,9 +1,13 @@
-wp-content/uploads/
-local-config.php
+.DS_Store
+wp-content/.DS_Store
+wp-content/plugins/.DS_Store
+wp-content/plugins/wp-realestate-manager/.DS_Store
+wp-content/plugins/wp-realestate-manager/backend/.DS_Store
+wp-content/plugins/wp-realestate-manager/templates/propertie
+wp-content/uploads/local-config.php
 .htaccess
 real_estate.sublime-project
 real_estate.sublime-workspace
 wp-content/plugins/wp-migrate-db/
 wp-content/plugins/kint-debugger/
-wp-content/plugins/show-current-template/
-account.txt
+wp-content/plugins/show-current-template/account.txt

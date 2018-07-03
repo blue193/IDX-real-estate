@@ -10,6 +10,7 @@ if ( ! class_exists('Wp_rem_Members_Meta') ) {
 
         var $html_data = '';
         var $post_id = '';
+        // global $team_members;
         public function __construct() {
             add_action('add_meta_boxes', array( $this, 'wp_rem_meta_members_add' ));
             add_action('add_meta_boxes', array( $this, 'wp_rem_meta_members_add' ));
@@ -920,7 +921,7 @@ if ( ! class_exists('Wp_rem_Members_Meta') ) {
                                 </div>
                             </div>'; ?>
                             <li> 
-                                <span><?php echo wp_rem_plugin_text_srt('wp_rem_member_username'); ?></span> | 
+                                <span><?php echo wp_rem_plugin_text_srt('wp_rem_member_username'); ?></span> 
                                 <span><?php echo wp_rem_plugin_text_srt('wp_rem_member_email_address'); ?></span> 
                             </li>
                             </form>
@@ -949,14 +950,10 @@ if ( ! class_exists('Wp_rem_Members_Meta') ) {
                                 ?>
 
                                 <li data-id="<?php echo esc_attr($member_data->ID); ?>">    
-                                    <form name="wp_rem_update_team_member" id="wp_rem_update_team_member<?php echo esc_attr($member_data->ID); ?>" data-id="<?php echo esc_attr($member_data->ID); ?>" method="POST">HELLO
+                                    <form name="wp_rem_update_team_member" id="wp_rem_update_team_member<?php echo esc_attr($member_data->ID); ?>" data-id="<?php echo esc_attr($member_data->ID); ?>" method="POST">
                                         <strong><?php echo esc_html($member_data->user_login); ?> </strong>
                                         <?php
                                         // TOTAL SUPPER ADMIN COUNT
-                                        echo '*******member_data***********';
-                                        print_r($member_data);
-                                        echo '******************';
-                                        
                                         $wp_rem_form_fields->wp_rem_form_hidden_render(
                                                 array(
                                                     'cust_name' => 'count_supper_admin',
