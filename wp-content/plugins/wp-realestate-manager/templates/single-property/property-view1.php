@@ -44,7 +44,6 @@ $member_image = wp_get_attachment_url($member_image_id);
 $wp_rem_member_phone_num = get_post_meta($wp_rem_property_member_id, 'wp_rem_phone_number', true);
 $wp_rem_member_email_address = get_post_meta($wp_rem_property_member_id, 'wp_rem_email_address', true);
 $wp_rem_member_email_address = isset($wp_rem_member_email_address) ? $wp_rem_member_email_address : '';
-// echo 'phone number: '.$wp_rem_member_phone_num;
 /*
  * member data end 
  */

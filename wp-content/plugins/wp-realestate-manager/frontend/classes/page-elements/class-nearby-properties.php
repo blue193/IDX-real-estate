@@ -16,6 +16,7 @@ if ( ! class_exists('wp_rem_nearby_properties_element') ) {
         public function wp_rem_nearby_properties_element_html_callback($property_id = '') {
 
             global $post, $wp_rem_plugin_options, $wp_rem_post_property_types;
+
             wp_enqueue_script('wp-rem-prettyPhoto');
             wp_enqueue_style('wp-rem-prettyPhoto');
             $wp_rem_cs_inline_script = '
@@ -62,9 +63,12 @@ if ( ! class_exists('wp_rem_nearby_properties_element') ) {
                                                 $list_count = 1;
                                                 while ( $rel_qry->have_posts() ) : $rel_qry->the_post();
                                                     global $post, $wp_rem_member_profile;
+                                                    $realtor_phone_number = REALTOR_CONTACT . REALTOR_WORKINGTIME;
+                                                    $realtor_email = REALTOR_EMAIL;
                                                     $property_id = $post->ID;
                                                     $post_id = $post->ID;
                                                     $Wp_rem_Locations = new Wp_rem_Locations();
+                                                    $wp_rem_property_member = get_post_meta($property_id, 'wp_rem_property_member', true);
                                                     $property_location = $Wp_rem_Locations->get_location_by_property_id($property_id);
                                                     $wp_rem_property_username = get_post_meta($property_id, 'wp_rem_property_username', true);
                                                     $wp_rem_property_is_featured = get_post_meta($property_id, 'wp_rem_property_is_featured', true);
@@ -203,6 +207,80 @@ if ( ! class_exists('wp_rem_nearby_properties_element') ) {
                                                                     <ul class="post-category-list">
                                                                         <?php echo wp_rem_allow_special_char($cus_fields['content']); ?>
                                                                     </ul>
+                                                                <?php
+                                                                    $wp_rem_phone_number = get_post_meta($wp_rem_property_member, 'wp_rem_phone_number', true);
+                                                                    $wp_rem_property_name = get_the_title($wp_rem_property_member);?>
+                                                                    <div class="post-category-list regident"><?php
+                                                                        if ( strcmp($wp_rem_property_name, '1on1realtor') == 0 ) {
+                                                                            if ( isset($team_members) && ! empty($team_members) && $wp_rem_property_username ) {
+                                                                                $wp_rem_selected_team_member = get_userdata( $wp_rem_property_username );
+                                                                                $wp_rem_team_member_name = $wp_rem_selected_team_member->display_name;
+                                                                                $wp_rem_team_member_phone = get_user_meta( $wp_rem_property_username, 'member_phone_number', true);
+                                                                            ?>
+                                                                                <div class="member-info">
+                                                                                    <ul class="list-resident">
+                                                                                        <li><i class="icon-user3"></i><span><?php echo esc_html($wp_rem_team_member_name); ?></span></li>
+                                                                                        <li><i class="icon-phone2"></i><?php echo esc_html($wp_rem_team_member_phone);?></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            <?php 
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                            ?>
+                                                                                <div class="member-info">
+                                                                                    <ul class="list-resident">
+                                                                                        <li><i class="icon-user3"></i><span><?php echo esc_html($wp_rem_property_name); ?></span></li>
+                                                                                        <li><i class="icon-phone2"></i><?php echo esc_html($wp_rem_phone_number);?></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            <?php
+                                                                            }
+                                                                        } 
+                                                                        else {?>
+                                                                            <div class="member-info">
+                                                                                <ul class="list-resident">
+                                                                                    <li><i class="icon- icon-envelope2"></i><span><?php echo esc_html($realtor_email); ?></span></li>
+                                                                                    <li><i class="icon-phone2"></i><?php echo esc_html($realtor_phone_number)?></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        <?php } ?>
+                                                                    </div>
+                                                                    <div class="post-category-list resident">
+                                                                        <?php
+                                                                        $member_image = array();
+                                                                        if( $wp_rem_property_username ){
+                                                                            $wp_rem_member_thumb_id = get_user_meta($wp_rem_property_username, 'member_thumb', true);
+                                                                            if ( isset($wp_rem_member_thumb_id) && $wp_rem_member_thumb_id != '' )
+                                                                                $member_image = wp_get_attachment_image_src($wp_rem_member_thumb_id, 'thumbnail');
+                                                                            else
+                                                                                $member_image[0] = esc_url(wp_rem::plugin_url() . 'assets/frontend/images/member-no-image.jpg');
+                                                                            ?>
+                                                                            <div class="thumb-resident">
+                                                                                <figure>
+                                                                                   <img src="<?php echo esc_url($member_image[0]); ?>" alt="" >
+                                                                                </figure>
+                                                                            </div>
+                                                                        <?php
+                                                                        }
+                                                                        else{
+                                                                            $member_image_id = get_post_meta($wp_rem_property_member, 'wp_rem_profile_image', true);
+                                                                            $member_image = wp_get_attachment_image_src($member_image_id, 'thumbnail');
+                                                                            if ($member_image == '' || FALSE == get_post_status($wp_rem_property_member)) {
+                                                                                $member_image[0] = esc_url(wp_rem::plugin_url() . 'assets/frontend/images/member-no-image.jpg');
+                                                                            }
+
+                                                                            if ($member_image != '' && get_post_status($wp_rem_property_member)) { ?>
+                                                                                <div class="thumb-resident">
+                                                                                    <figure>
+                                                                                        <img src="<?php echo esc_url($member_image[0]); ?>" alt="" >
+                                                                                    </figure>
+                                                                                </div>
+                                                                            <?php 
+                                                                            } 
+                                                                        }
+                                                                        ?>
+                                                                    </div>
                                                                     <?php
                                                                 }
                                                                 ?>

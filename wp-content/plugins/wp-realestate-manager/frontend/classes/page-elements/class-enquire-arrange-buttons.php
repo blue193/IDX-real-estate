@@ -126,9 +126,9 @@ if ( ! class_exists('wp_rem_enquire_arrange_button_element') ) {
             //     exit();
             // }
         }
-
         public function wp_rem_send_arrange_submit_callback() {
             global $wp_rem_plugin_options;
+
             $wp_rem_captcha_switch = isset($wp_rem_plugin_options['wp_rem_captcha_switch']) ? $wp_rem_plugin_options['wp_rem_captcha_switch'] : '';
 
             $arrange_user_name = wp_rem_get_input('arrange_user_name', NULL, 'STRING');
@@ -287,6 +287,7 @@ if ( ! class_exists('wp_rem_enquire_arrange_button_element') ) {
             $property_type_slug = get_post_meta($property_id, 'wp_rem_property_type', true);
             $property_type_post = get_posts(array( 'posts_per_page' => '1', 'post_type' => 'property-type', 'name' => $property_type_slug, 'post_status' => 'publish' ));
             $property_type_id = isset($property_type_post[0]->ID) ? $property_type_post[0]->ID : 0;
+
             $user_id = $company_id = 0;
             $user_id = get_current_user_id();
             $display_name = '';
@@ -300,6 +301,7 @@ if ( ! class_exists('wp_rem_enquire_arrange_button_element') ) {
                 $email_address = get_post_meta($company_id, 'wp_rem_email_address', true);
             }
             ?>
+
             <!-- Modal -->
             <div class="modal modal-form fade" id="enquiry-modal" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
@@ -738,7 +740,7 @@ if ( ! class_exists('wp_rem_enquire_arrange_button_element') ) {
                                         }
                                         ?>
 
-                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">hj
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="field-holder"> 
                                                 <div class="check-box-remind">
                                                     <?php

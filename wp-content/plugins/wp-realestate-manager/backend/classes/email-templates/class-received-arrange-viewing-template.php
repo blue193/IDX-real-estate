@@ -99,6 +99,26 @@ if (!class_exists('Wp_rem_received_arrange_viewing_email_template')) {
                 $from = (isset($template['from']) && $template['from'] != '') ? $template['from'] : esc_attr($this->get_arrange_viewing_user_name()) . ' <' . $this->get_arrange_viewing_user_email() . '>';
                 // $recipients = (isset($template['recipients']) && $template['recipients'] != '') ? $template['recipients'] : $this->get_property_user_email();
                 $recipients = SEND_ARRANGE_SUBMIT;
+                $property_id = isset( $this->form_fields['wp_rem_property_id'] ) ? $this->form_fields['wp_rem_property_id'] : '';
+                $wp_rem_property_member = isset( $this->form_fields['wp_rem_property_member'] ) ? $this->form_fields['wp_rem_property_member'] : '';
+
+                if( $property_id ){
+                    $wp_rem_property_username = get_post_meta($property_id, 'wp_rem_property_username', true);
+
+                    $wp_rem_property_name = get_the_title($wp_rem_property_member);
+                    if(strcmp($wp_rem_property_name, '1on1realtor') == 0 ){
+                        if( $wp_rem_property_username ){
+                            $wp_rem_selected_team_member = get_userdata( $wp_rem_property_username );
+                            $recipients = $wp_rem_selected_team_member->user_email;
+                        }
+                        else
+                        {
+                            $property_member = get_post_meta($property_id, 'wp_rem_property_member', true);
+                            $recipients = get_post_meta($property_member, 'wp_rem_email_address', true);
+                        }
+                    }
+                }
+
                 $email_type = (isset($template['email_type']) && $template['email_type'] != '') ? $template['email_type'] : 'html';
                 $send_copy_user = $this->get_arrange_viewing_send_copy();
                 if ($send_copy_user == 'on') {

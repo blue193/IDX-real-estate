@@ -7,10 +7,7 @@
 get_header();
 global $post, $wp_rem_plugin_options, $wp_rem_theme_options, $wp_rem_post_property_types, $wp_rem_plugin_options;
 $post_id = $post->ID;
-// print '<pre>';
-// print_r(get_post_meta( $post_id));
-// print '</pre>';
-// d(get_post_meta( $post_id));
+
 $wp_rem_single_view = wp_rem_property_detail_page_view($post_id);
 if( $wp_rem_single_view == '' ){
 	$wp_rem_single_view = 'detail_view1';

@@ -517,10 +517,6 @@ if (!class_exists('Wp_rem_Email')) {
             $wp_rem_from_email = isset($options['wp_rem_smtp_sender_email']) ? $options['wp_rem_smtp_sender_email'] : '';
             $headers[] = 'From:' . $wp_rem_from_name . ' <' . $wp_rem_from_email . '>';
 
-            // $headers = "From: " . $wp_rem_from_name . " <" . $wp_rem_from_email . ">" . "\r\n" ;
-            // $headers.= "Reply-To: " . $replyToEmailName . " <" . $replyToEmailAddress . ">" . "\r\n" ;
-            // $headers.= "cc: " . $ccEmailName1 . " <" . $ccEmailAddress1 . ">" . "\r\n" ;
-
             $array = array('to' => $email, 'subject' => $subject, 'message' => $message, 'headers' => $headers);
             do_action('wp_rem_send_mail', $array);
 
