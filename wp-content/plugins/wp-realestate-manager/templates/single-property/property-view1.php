@@ -291,8 +291,8 @@ if (!empty($wp_rem_property_category) && is_array($wp_rem_property_category)) {
                                                         ?>
                                                         <div class="thumb-resident">
                                                             <figure>
-                                                                <a href="<?php echo get_the_permalink($wp_rem_property_member_id); ?>"></a>
-                                                               <img class="resident-user-img" src="<?php echo esc_url($member_image[0]); ?>" alt="" >
+                                                                <a href="<?php echo get_the_permalink($wp_rem_property_member_id); ?>">
+                                                               <img class="resident-user-img" src="<?php echo esc_url($member_image[0]); ?>" alt="" ></a>
                                                             </figure>
                                                         </div>
                                                     <?php
@@ -308,8 +308,8 @@ if (!empty($wp_rem_property_category) && is_array($wp_rem_property_category)) {
                                                         if ($member_image != '' && get_post_status($wp_rem_property_member_id)) { ?>
                                                             <div class="thumb-resident">
                                                                 <figure>
-                                                                    <a href="<?php echo get_the_permalink($wp_rem_property_member_id); ?>"></a>
-                                                                    <img class="resident-user-img" src="<?php echo esc_url($member_image[0]); ?>" alt="" >
+                                                                    <a href="<?php echo get_the_permalink($wp_rem_property_member_id); ?>">
+                                                                    <img class="resident-user-img" src="<?php echo esc_url($member_image[0]); ?>" alt="" ></a>
                                                                 </figure>
                                                             </div>
                                                         <?php 

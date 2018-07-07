@@ -390,7 +390,7 @@ if ( $property_loop_obj->have_posts() ) {
                                         </div>
                                     <?php } ?>
                                 </div>
-                                <div class="post-category-list resident">
+                                <div class="post-category-list resident thumbimg">
                                     <?php
                                     $member_image = array();
                                     if( $wp_rem_property_username ){
